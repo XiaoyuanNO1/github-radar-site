@@ -6,7 +6,9 @@ const DATA_URL = './radar_history.json';
 let allProjects = [];
 let currentSort = { key: 'total', dir: 'desc' };
 let searchQuery = '';
-let trackFilter = 'all'; // 新增：赛道筛选状态
+let trackFilter = 'all';
+let currentPage = 1;       // 新增：当前页
+const PAGE_SIZE = 15;      // 新增：每页条数
 
 // ===== 初始化 =====
 async function init() {
@@ -208,18 +210,27 @@ function renderHistory() {
     return 0;
   });
 
+  // 分页计算
+  const totalItems = data.length;
+  const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
+  if (currentPage > totalPages) currentPage = totalPages;
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const pageData = data.slice(start, start + PAGE_SIZE);
+
   const tbody = document.getElementById('history-tbody');
 
   if (!data.length) {
     tbody.innerHTML = `<tr><td colspan="9"><div class="empty-state"><div class="icon">🔍</div><p>没有找到匹配的项目</p></div></td></tr>`;
+    renderPagination(0, 1, totalItems);
     return;
   }
 
-  tbody.innerHTML = data.map((p, i) => {
+  tbody.innerHTML = pageData.map((p, i) => {
     const s = p.scores;
+    const globalIndex = start + i + 1;
     return `
     <tr onclick="openModal('${p.id}')">
-      <td class="col-rank"><span class="rank-num">${i + 1}</span></td>
+      <td class="col-rank"><span class="rank-num">${globalIndex}</span></td>
       <td class="col-title">
         <span class="project-title">
           <a href="${p.url}" target="_blank" onclick="event.stopPropagation()">${p.title}</a>
@@ -235,6 +246,55 @@ function renderHistory() {
       <td class="col-top"><span class="top-badge">${p.is_top ? '🏆' : ''}</span></td>
     </tr>`;
   }).join('');
+
+  renderPagination(currentPage, totalPages, totalItems);
+}
+
+// ===== 渲染分页控件 =====
+function renderPagination(page, totalPages, totalItems) {
+  let el = document.getElementById('pagination');
+  if (!el) return;
+
+  if (totalPages <= 1) {
+    el.innerHTML = '';
+    return;
+  }
+
+  const start = (page - 1) * PAGE_SIZE + 1;
+  const end = Math.min(page * PAGE_SIZE, totalItems);
+
+  // 生成页码按钮（最多显示7个）
+  let pages = [];
+  if (totalPages <= 7) {
+    for (let i = 1; i <= totalPages; i++) pages.push(i);
+  } else {
+    pages = [1];
+    if (page > 3) pages.push('...');
+    for (let i = Math.max(2, page - 1); i <= Math.min(totalPages - 1, page + 1); i++) pages.push(i);
+    if (page < totalPages - 2) pages.push('...');
+    pages.push(totalPages);
+  }
+
+  el.innerHTML = `
+    <div class="pagination-info">显示 ${start}–${end} 条，共 ${totalItems} 条</div>
+    <div class="pagination-btns">
+      <button class="page-btn" ${page === 1 ? 'disabled' : ''} onclick="goPage(${page - 1})">‹ 上一页</button>
+      ${pages.map(p =>
+        p === '...'
+          ? `<span class="page-ellipsis">…</span>`
+          : `<button class="page-btn ${p === page ? 'active' : ''}" onclick="goPage(${p})">${p}</button>`
+      ).join('')}
+      <button class="page-btn" ${page === totalPages ? 'disabled' : ''} onclick="goPage(${page + 1})">下一页 ›</button>
+    </div>
+  `;
+}
+
+// ===== 跳转页码 =====
+function goPage(p) {
+  currentPage = p;
+  renderHistory();
+  // 平滑滚动到表格顶部
+  document.getElementById('history-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // ===== 打开 Modal =====
@@ -353,6 +413,7 @@ function bindEvents() {
   // 搜索
   document.getElementById('search-input').addEventListener('input', e => {
     searchQuery = e.target.value.trim();
+    currentPage = 1;  // 搜索时重置页码
     renderHistory();
   });
 
@@ -373,6 +434,7 @@ function bindEvents() {
     } else {
       currentSort = { key, dir };
     }
+    currentPage = 1;  // 排序时重置页码
     renderHistory();
     syncTableHeader();
   });
@@ -386,6 +448,7 @@ function bindEvents() {
       } else {
         currentSort = { key, dir: 'desc' };
       }
+      currentPage = 1;  // 排序时重置页码
       renderHistory();
       syncTableHeader();
     });
@@ -398,6 +461,7 @@ function bindEvents() {
     document.querySelectorAll('.track-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     trackFilter = btn.dataset.track;
+    currentPage = 1;  // 筛选时重置页码
     renderHistory();
   });
 
