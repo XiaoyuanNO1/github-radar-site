@@ -14,7 +14,13 @@
       "growth_potential": 2,
       "total": 9
     },
-    "is_top": true
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词工程 + 技能编排，无底层算子，Cursor 一天内可复刻 MVP，极易实现。",
+      "logic_moat": "科学技能的设计与分类体系有一定的业务逻辑深度，但核心是 prompt 堆叠，护城河中等。",
+      "track_fit": "教育赛道强命中，AI 辅助科研/学习场景在小红书高传播，赛道满分。",
+      "growth_potential": "「AI 科研助手」概念在小红书/即刻极易爆，可包装成付费课程或工具订阅。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -31,7 +37,13 @@
       "growth_potential": 1,
       "total": 4
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "沙箱隔离涉及容器/虚拟化底层，Vibe 复刻难度大，需要深度系统知识。",
+      "logic_moat": "安全沙箱的隔离策略和执行逻辑有技术壁垒，但商业逻辑护城河一般。",
+      "track_fit": "开发工具赛道，不在宠物/银发/玄学/金融/教育五大赛道内，不得分。",
+      "growth_potential": "面向开发者，传播受众窄，副业变现路径不清晰，潜力有限。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -48,7 +60,13 @@
       "growth_potential": 2,
       "total": 6
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "视频生成流水线是纯逻辑编排，API 调用组合，Cursor 极易复刻，满分。",
+      "logic_moat": "功能是 API 的简单串联，缺乏独特算法，竞品多，护城河薄。",
+      "track_fit": "内容创作工具，未命中五大核心赛道，赛道分为 0。",
+      "growth_potential": "「自动赚钱视频」噱头在小红书有爆款潜力，可包装成副业工具变现。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -65,7 +83,13 @@
       "growth_potential": 1,
       "total": 5
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "多 Agent 框架有一定复杂度，需理解 Agent 通信协议，复刻中等难度。",
+      "logic_moat": "Agent 调度逻辑和通信机制有一定设计深度，护城河中等。",
+      "track_fit": "通用 AI 框架，未命中核心赛道，赛道分 0。",
+      "growth_potential": "开发者工具，受众有限，传播潜力和变现路径一般。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -82,7 +106,13 @@
       "growth_potential": 1,
       "total": 4
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "LLM 微调涉及 CUDA 底层优化，Vibe 复刻几乎不可能，难度极高。",
+      "logic_moat": "底层算子优化是真正的技术护城河，但商业逻辑层面护城河中等。",
+      "track_fit": "AI 基础设施，未命中五大核心赛道，不得分。",
+      "growth_potential": "技术圈传播有限，个人副业变现路径不清晰。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -99,7 +129,13 @@
       "growth_potential": 2,
       "total": 7
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "SEO 内容生成是纯逻辑编排，关键词分析 + 内容生成 API 串联，极易复刻。",
+      "logic_moat": "SEO 策略和内容优化逻辑有一定业务深度，可积累数据飞轮，护城河中等偏上。",
+      "track_fit": "营销工具赛道，未命中五大核心赛道，不得分。",
+      "growth_potential": "「AI 帮你做 SEO 躺赚」在小红书极易爆，可包装成付费订阅工具。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -116,7 +152,13 @@
       "growth_potential": 1,
       "total": 4
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "LLM 推理缓存涉及分布式系统和底层内存管理，Vibe 复刻极难。",
+      "logic_moat": "缓存策略和 KV 管理算法是真正的技术护城河，逻辑护城河满分。",
+      "track_fit": "AI 基础设施，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向企业级 AI 部署，个人副业变现路径极窄。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -133,7 +175,13 @@
       "growth_potential": 1,
       "total": 5
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "AI 编程助手逻辑清晰，主要是 LLM API + 文件操作编排，极易复刻。",
+      "logic_moat": "功能成熟，竞品众多（Cursor/Copilot），差异化逻辑护城河较薄。",
+      "track_fit": "开发工具，未命中五大核心赛道，赛道分 0。",
+      "growth_potential": "开发者工具市场饱和，个人变现空间有限。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -150,7 +198,13 @@
       "growth_potential": 0,
       "total": 2
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "大规模分布式训练框架，涉及 GPU 集群通信和底层算子，Vibe 复刻不可能。",
+      "logic_moat": "分布式训练逻辑复杂，有一定护城河，但商业应用层面护城河一般。",
+      "track_fit": "AI 基础设施，未命中核心赛道，不得分。",
+      "growth_potential": "企业级工具，个人副业几乎无变现可能。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -167,7 +221,13 @@
       "growth_potential": 1,
       "total": 4
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "高性能推理引擎涉及 CUDA/PagedAttention 底层，Vibe 复刻极难。",
+      "logic_moat": "PagedAttention 等核心算法是真正的技术护城河，满分。",
+      "track_fit": "AI 基础设施，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向大型企业部署，个人副业变现空间极窄。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -184,7 +244,13 @@
       "growth_potential": 0,
       "total": 3
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "安全规则和 SIEM 逻辑有一定复杂度，但主体是配置文件，复刻难度中偏高。",
+      "logic_moat": "安全检测规则库是业务逻辑护城河，但依赖微软生态，独立价值有限。",
+      "track_fit": "安全工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向企业安全团队，个人副业变现路径极窄。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -201,7 +267,13 @@
       "growth_potential": 1,
       "total": 5
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "MCP 服务器开发有标准协议，但需要理解 AWS 服务体系，复刻中等难度。",
+      "logic_moat": "MCP 协议封装 + AWS 服务集成逻辑有一定深度，护城河中等。",
+      "track_fit": "云服务工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "开发者工具，受众有限，但 MCP 概念热度上升，传播潜力一般。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -218,7 +290,13 @@
       "growth_potential": 2,
       "total": 7
     },
-    "is_top": true
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "Skills 是提示词 + 工具调用的纯逻辑编排，Cursor 一天内可复刻，极易。",
+      "logic_moat": "Skills 体系设计有一定的逻辑深度，但本质是 prompt 工程，护城河中等。",
+      "track_fit": "AI 工具赛道，未命中核心五大赛道，不得分。",
+      "growth_potential": "「AI 技能包」概念在小红书/即刻有传播潜力，可包装成付费产品。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -235,7 +313,13 @@
       "growth_potential": 1,
       "total": 5
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "工作流编排有标准化 SDK，逻辑清晰，Cursor 可以较快复刻，难度中等。",
+      "logic_moat": "工作流调度和状态管理逻辑有一定深度，竞品也多，护城河中等。",
+      "track_fit": "开发工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向开发者和数据工程师，个人副业变现路径一般。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -252,7 +336,13 @@
       "growth_potential": 2,
       "total": 6
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "Skills 封装是纯提示词工程，零代码基础也能复刻，极易实现。",
+      "logic_moat": "Skills 设计逻辑简单，主要是 prompt 堆叠，护城河较薄。",
+      "track_fit": "AI 工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "「AI 技能扩展包」在社区有传播价值，可做付费内容变现。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -269,7 +359,13 @@
       "growth_potential": 2,
       "total": 6
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "GPT 底层模型涉及训练代码和底层算子，Vibe 复刻几乎不可能。",
+      "logic_moat": "OpenAI 开源的模型架构是真正的技术护城河，逻辑满分。",
+      "track_fit": "AI 基础模型，未命中五大核心赛道，不得分。",
+      "growth_potential": "开源模型发布本身有极大传播效应，但个人副业变现路径不清晰。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -286,7 +382,13 @@
       "growth_potential": 2,
       "total": 8
     },
-    "is_top": true
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "实时音视频 AI 框架有一定复杂度，但提供了高层 API，复刻中等难度。",
+      "logic_moat": "实时 AI 对话的编排逻辑和低延迟设计有一定护城河，护城河中等。",
+      "track_fit": "银发/教育赛道强命中，AI 陪伴对话场景适合老人和学生，满分。",
+      "growth_potential": "「AI 实时陪伴」在小红书/即刻极易爆，银发陪伴和儿童教育变现潜力巨大。"
+    }
   },
   {
     "date": "2026-03-05",
@@ -303,6 +405,12 @@
       "growth_potential": 1,
       "total": 4
     },
-    "is_top": false
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "扩散语言模型涉及深度学习底层，Vibe 复刻极难，需要专业 ML 知识。",
+      "logic_moat": "扩散式 LLM 的生成机制是真正的算法护城河，逻辑满分。",
+      "track_fit": "AI 基础研究，未命中五大核心赛道，不得分。",
+      "growth_potential": "学术前沿项目，传播受众窄，个人副业变现路径极窄。"
+    }
   }
 ]
