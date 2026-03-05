@@ -82,7 +82,7 @@ function renderTop3(date) {
   const dates = [...new Set(allProjects.map(p => p.date))].sort().reverse();
   const targetDate = date || dates[0];
 
-  // 取当天 is_top 项目，不足则按分数补
+  // 取当天 is_top 项目，不足则按分数补，最终按总分降序排列
   let tops = allProjects.filter(p => p.date === targetDate && p.is_top);
   if (tops.length < 3) {
     const others = allProjects
@@ -90,7 +90,7 @@ function renderTop3(date) {
       .sort((a, b) => b.scores.total - a.scores.total);
     tops = [...tops, ...others].slice(0, 3);
   }
-  tops = tops.slice(0, 3);
+  tops = tops.sort((a, b) => b.scores.total - a.scores.total).slice(0, 3);
 
   const grid = document.getElementById('top3-grid');
   if (!tops.length) {
