@@ -1,0 +1,308 @@
+[
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-001",
+    "title": "K-Dense-AI / claude-scientific-skills",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "raw_description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+    "description": "为科研、工程、金融、写作等领域提供即用型Agent Skills集合，让Claude直接具备专业领域能力，无需额外训练。解决的痛点是：专业领域的AI能力门槛高、定制成本大。",
+    "metaphor": "它就像给Claude装了一个「专业技能百宝箱」，拆开即用，研究员、金融分析师、工程师各取所需，不用自己从零攒工具。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-002",
+    "title": "alibaba / OpenSandbox",
+    "url": "https://github.com/alibaba/OpenSandbox",
+    "raw_description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
+    "description": "阿里出品的AI应用通用沙箱平台，支持多语言SDK、统一沙箱API，适用于Coding Agent、GUI Agent、代码执行、RL训练等场景。解决AI执行真实操作时的安全隔离问题。",
+    "metaphor": "它就像给AI Agent搭了一个安全的「试验田」，让AI可以放心地跑代码、操作系统，出了问题也不会炸到真实环境。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-003",
+    "title": "FujiwaraChoki / MoneyPrinterV2",
+    "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+    "raw_description": "Automate the process of making money online.",
+    "description": "自动化在线赚钱流程，通过AI自动生成短视频内容、脚本、配音并发布，实现内容副业的全自动化。痛点：内容创作耗时耗力，难以规模化。",
+    "metaphor": "它就像一台「全自动印钞机」——你设定好模板和主题，它帮你不停产内容、挂广告、收钱，你只需要睡觉。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-004",
+    "title": "agentscope-ai / agentscope",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "raw_description": "Build and run agents you can see, understand and trust.",
+    "description": "阿里开源的多Agent构建框架，强调可视化、可理解、可信赖的Agent工作流编排。解决多Agent系统黑盒难调试的痛点。",
+    "metaphor": "它就像给AI Agent团队配了一个「透明玻璃办公室」，你能看到每个Agent在干什么、为什么这么干，出了问题一眼定位。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-005",
+    "title": "unslothai / unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "raw_description": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM.",
+    "description": "LLM微调与强化学习加速工具，支持DeepSeek、Qwen、Llama等主流模型，训练速度提升2倍、显存减少70%。解决个人/小团队显卡资源不足无法微调大模型的痛点。",
+    "metaphor": "它就像给LLM训练装了「涡轮增压发动机」——同样的油（显存），跑得更快更远，穷玩家也能玩得起微调。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-006",
+    "title": "TheCraigHewitt / seomachine",
+    "url": "https://github.com/TheCraigHewitt/seomachine",
+    "raw_description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+    "description": "基于Claude Code的专业SEO长文生成工作台，帮助企业研究、撰写、分析、优化高排名博客内容。解决内容营销团队SEO写作效率低、质量参差不齐的痛点。",
+    "metaphor": "它就像给内容营销团队配了一个「SEO魔法流水线」——输入你的业务关键词，输出能上Google首页的专业长文，省掉整个SEO外包团队。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-007",
+    "title": "LMCache / LMCache",
+    "url": "https://github.com/LMCache/LMCache",
+    "raw_description": "Supercharge Your LLM with the Fastest KV Cache Layer",
+    "description": "LLM推理加速的最快KV Cache层，大幅降低首Token延迟，提升推理吞吐量。解决LLM生产部署中延迟高、并发差的核心痛点。",
+    "metaphor": "它就像给LLM的「短期记忆」装了SSD——之前每次都要重新计算的注意力权重，现在直接从高速缓存里取，响应快到飞起。",
+    "scores": {
+      "vibecoding_ease": 0,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-008",
+    "title": "Aider-AI / aider",
+    "url": "https://github.com/Aider-AI/aider",
+    "raw_description": "aider is AI pair programming in your terminal",
+    "description": "终端里的AI结对编程工具，支持多模型，能直接理解并修改整个代码仓库，是Vibecoding的核心工具之一。",
+    "metaphor": "它就像把一个顶级程序员「塞进了你的终端」，你说需求，它直接改代码、写测试、提交PR，全程不用动手。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-009",
+    "title": "NVIDIA-NeMo / Megatron-Bridge",
+    "url": "https://github.com/NVIDIA-NeMo/Megatron-Bridge",
+    "raw_description": "Training library for Megatron-based models with bidirectional Hugging Face conversion capability",
+    "description": "NVIDIA出品的Megatron模型训练库，支持与HuggingFace生态的双向格式转换。解决NVIDIA大模型训练框架与开源生态割裂的痛点。",
+    "metaphor": "它就像一座「格式翻译桥」，让NVIDIA的超算训练体系和HuggingFace的开源生态无缝互通，不再是两个孤岛。",
+    "scores": {
+      "vibecoding_ease": 0,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 0,
+      "total": 2
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-010",
+    "title": "vllm-project / vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "raw_description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "description": "高吞吐、内存高效的LLM推理与服务引擎，业界标杆级开源项目，是部署大模型API服务的首选方案。",
+    "metaphor": "它就像给LLM装了「高速公路收费站管理系统」——同时处理成千上万个请求，互不堵塞，吞吐量拉满。",
+    "scores": {
+      "vibecoding_ease": 0,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-011",
+    "title": "Azure / Azure-Sentinel",
+    "url": "https://github.com/Azure/Azure-Sentinel",
+    "raw_description": "Cloud-native SIEM for intelligent security analytics for your entire enterprise.",
+    "description": "微软云原生SIEM安全信息与事件管理平台，为企业提供全域智能安全分析。解决企业安全日志海量、人工分析不过来的痛点。",
+    "metaphor": "它就像给企业IT部署了一个「永不睡觉的安全警卫」，自动分析所有日志，发现异常立刻报警，人工只需处理真正的威胁。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 0,
+      "total": 3
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-012",
+    "title": "awslabs / mcp",
+    "url": "https://github.com/awslabs/mcp",
+    "raw_description": "Official MCP Servers for AWS",
+    "description": "AWS官方MCP服务器集合，让AI Agent能直接调用AWS S3、Lambda、DynamoDB等各类云服务。解决AI Agent与云服务集成繁琐的痛点。",
+    "metaphor": "它就像给AI Agent办了一张「AWS全服务VIP通行证」，想用什么云服务直接调，不用再手写SDK集成代码。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-013",
+    "title": "anthropics / skills",
+    "url": "https://github.com/anthropics/skills",
+    "raw_description": "Public repository for Agent Skills",
+    "description": "Anthropic官方Agent Skills公共仓库，提供可直接使用的Claude技能集合，覆盖各类实用场景。解决AI能力扩展需要从零开发的痛点。",
+    "metaphor": "它就像Claude的「官方技能商店」，开发者可以直接下载安装，让Claude具备OCR、数据分析、代码执行等各种专业能力，今天1139颗星的增量说明市场热度极高。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-014",
+    "title": "PrefectHQ / prefect",
+    "url": "https://github.com/PrefectHQ/prefect",
+    "raw_description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+    "description": "Python数据管道工作流编排框架，构建弹性数据流水线，支持自动重试、监控、调度。解决数据工程师管理复杂数据流水线的痛点。",
+    "metaphor": "它就像给数据工程师配了一个「自动调度总指挥」，数据流水线失败了自动重试，成功了自动通知，你只管睡觉。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-015",
+    "title": "alirezarezvani / claude-skills",
+    "url": "https://github.com/alirezarezvani/claude-skills",
+    "raw_description": "A Collection of Skills for Claude Code and Claude AI for real-world Usage. Including Claude Code Subagents, Claude Code Commands",
+    "description": "Claude Code和Claude AI的实战技能集合，包含子Agent、自定义命令等现实场景应用，面向工程师的进阶玩法。",
+    "metaphor": "它就像一本「Claude实战秘籍」，把各种高级玩法打包好，拿来即用，让你的Claude比别人的Claude多出十八般武艺。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-016",
+    "title": "openai / gpt-oss",
+    "url": "https://github.com/openai/gpt-oss",
+    "raw_description": "gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI",
+    "description": "OpenAI开源的两款大模型——gpt-oss-120b和gpt-oss-20b，填补OpenAI长期不开源的市场空白，对标DeepSeek。",
+    "metaphor": "它就像OpenAI终于把「镇店之宝」拿出来一部分放到橱窗里展示，开发者能在本地跑GPT级别的模型了，这是一个时代信号。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-017",
+    "title": "TEN-framework / ten-framework",
+    "url": "https://github.com/TEN-framework/ten-framework",
+    "raw_description": "Open-source framework for conversational voice AI agents",
+    "description": "开源的对话式语音AI Agent框架，专注于实时语音交互场景，可快速构建语音客服、语音助手、陪伴机器人等产品。解决语音AI应用开发门槛高的痛点。",
+    "metaphor": "它就像给AI装了一套「耳朵+嘴巴」，让Agent能像真人一样实时对话，银发族陪伴、儿童教育、宠物互动等场景全部打通。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-05",
+    "id": "2026-03-05-018",
+    "title": "ZHZisZZ / dllm",
+    "url": "https://github.com/ZHZisZZ/dllm",
+    "raw_description": "dLLM: Simple Diffusion Language Modeling",
+    "description": "简洁的扩散语言模型（Diffusion LLM）实现，探索非自回归文本生成新范式，打破传统自回归模型逐词生成的限制。",
+    "metaphor": "它就像把「图像生成的扩散魔法」移植到了文字上——不再一个字一个字地蹦出来，而是整体从噪声中「显影」出来，可能是下一代LLM的雏形。",
+    "scores": {
+      "vibecoding_ease": 0,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false
+  }
+]
