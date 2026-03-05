@@ -310,87 +310,92 @@ function openModal(id) {
       <div class="modal-title">
         <a href="${p.url}" target="_blank">${p.title}</a>
       </div>
-      <div class="modal-date">📅 ${p.date}</div>
     </div>
 
-    <div class="modal-section">
-      <div class="modal-section-label">项目简介</div>
-      <div class="modal-desc">${p.description}</div>
-    </div>
+    <div class="modal-body-grid">
+      <!-- 左栏：简介 + 比喻 + 链接 -->
+      <div class="modal-body-left">
+        <div class="modal-section">
+          <div class="modal-section-label">项目简介</div>
+          <div class="modal-desc">${p.description}</div>
+        </div>
+        <div class="modal-section">
+          <div class="modal-section-label">生动比喻</div>
+          <div class="modal-metaphor">${p.metaphor}</div>
+        </div>
+        <a href="${p.url}" target="_blank" class="modal-link-btn">
+          🔗 前往 GitHub 查看项目
+        </a>
+      </div>
 
-    <div class="modal-section">
-      <div class="modal-section-label">生动比喻</div>
-      <div class="modal-metaphor">${p.metaphor}</div>
-    </div>
-
-    <div class="modal-section">
-      <div class="modal-section-label">评分详情</div>
-      <div class="modal-scores-grid">
-        <div class="modal-score-item">
-          <div class="modal-score-header">
-            <div class="modal-score-name">⚡ Vibecoding 实现难度</div>
-            <div class="modal-score-badge">
-              <span class="modal-score-value vibe">${s.vibecoding_ease}</span>
-              <span class="modal-score-max">/ 3</span>
+      <!-- 右栏：评分详情 -->
+      <div class="modal-body-right">
+        <div class="modal-section">
+          <div class="modal-section-label">评分详情</div>
+          <div class="modal-scores-grid">
+            <div class="modal-score-item">
+              <div class="modal-score-header">
+                <div class="modal-score-name">⚡ Vibecoding 实现难度</div>
+                <div class="modal-score-badge">
+                  <span class="modal-score-value vibe">${s.vibecoding_ease}</span>
+                  <span class="modal-score-max">/ 3</span>
+                </div>
+              </div>
+              <div class="modal-score-bar-wrap">
+                <div class="modal-score-bar"><div class="modal-score-bar-fill vibe" style="width:${(s.vibecoding_ease/3)*100}%"></div></div>
+              </div>
+              ${r.vibecoding_ease ? `<div class="modal-score-reason">${r.vibecoding_ease}</div>` : ''}
+            </div>
+            <div class="modal-score-item">
+              <div class="modal-score-header">
+                <div class="modal-score-name">🏰 逻辑护城河</div>
+                <div class="modal-score-badge">
+                  <span class="modal-score-value moat">${s.logic_moat}</span>
+                  <span class="modal-score-max">/ 3</span>
+                </div>
+              </div>
+              <div class="modal-score-bar-wrap">
+                <div class="modal-score-bar"><div class="modal-score-bar-fill moat" style="width:${(s.logic_moat/3)*100}%"></div></div>
+              </div>
+              ${r.logic_moat ? `<div class="modal-score-reason">${r.logic_moat}</div>` : ''}
+            </div>
+            <div class="modal-score-item">
+              <div class="modal-score-header">
+                <div class="modal-score-name">🎯 赛道契合度</div>
+                <div class="modal-score-badge">
+                  <span class="modal-score-value track">${s.track_fit}</span>
+                  <span class="modal-score-max">/ 2</span>
+                </div>
+              </div>
+              <div class="modal-score-bar-wrap">
+                <div class="modal-score-bar"><div class="modal-score-bar-fill track" style="width:${(s.track_fit/2)*100}%"></div></div>
+              </div>
+              ${r.track_fit ? `<div class="modal-score-reason">${r.track_fit}</div>` : ''}
+            </div>
+            <div class="modal-score-item">
+              <div class="modal-score-header">
+                <div class="modal-score-name">📈 增长潜力</div>
+                <div class="modal-score-badge">
+                  <span class="modal-score-value growth">${s.growth_potential}</span>
+                  <span class="modal-score-max">/ 2</span>
+                </div>
+              </div>
+              <div class="modal-score-bar-wrap">
+                <div class="modal-score-bar"><div class="modal-score-bar-fill growth" style="width:${(s.growth_potential/2)*100}%"></div></div>
+              </div>
+              ${r.growth_potential ? `<div class="modal-score-reason">${r.growth_potential}</div>` : ''}
             </div>
           </div>
-          <div class="modal-score-bar-wrap">
-            <div class="modal-score-bar"><div class="modal-score-bar-fill vibe" style="width:${(s.vibecoding_ease/3)*100}%"></div></div>
-          </div>
-          ${r && r.vibecoding_ease ? `<div class="modal-score-reason">${r.vibecoding_ease}</div>` : ''}
-        </div>
-        <div class="modal-score-item">
-          <div class="modal-score-header">
-            <div class="modal-score-name">🏰 逻辑护城河</div>
-            <div class="modal-score-badge">
-              <span class="modal-score-value moat">${s.logic_moat}</span>
-              <span class="modal-score-max">/ 3</span>
+          <div class="modal-total">
+            <span class="modal-total-label">综合总分</span>
+            <div>
+              <span class="modal-total-value">${s.total}</span>
+              <span class="modal-total-denom"> / 10</span>
             </div>
           </div>
-          <div class="modal-score-bar-wrap">
-            <div class="modal-score-bar"><div class="modal-score-bar-fill moat" style="width:${(s.logic_moat/3)*100}%"></div></div>
-          </div>
-          ${r && r.logic_moat ? `<div class="modal-score-reason">${r.logic_moat}</div>` : ''}
-        </div>
-        <div class="modal-score-item">
-          <div class="modal-score-header">
-            <div class="modal-score-name">🎯 赛道契合度</div>
-            <div class="modal-score-badge">
-              <span class="modal-score-value track">${s.track_fit}</span>
-              <span class="modal-score-max">/ 2</span>
-            </div>
-          </div>
-          <div class="modal-score-bar-wrap">
-            <div class="modal-score-bar"><div class="modal-score-bar-fill track" style="width:${(s.track_fit/2)*100}%"></div></div>
-          </div>
-          ${r && r.track_fit ? `<div class="modal-score-reason">${r.track_fit}</div>` : ''}
-        </div>
-        <div class="modal-score-item">
-          <div class="modal-score-header">
-            <div class="modal-score-name">📈 增长潜力</div>
-            <div class="modal-score-badge">
-              <span class="modal-score-value growth">${s.growth_potential}</span>
-              <span class="modal-score-max">/ 2</span>
-            </div>
-          </div>
-          <div class="modal-score-bar-wrap">
-            <div class="modal-score-bar"><div class="modal-score-bar-fill growth" style="width:${(s.growth_potential/2)*100}%"></div></div>
-          </div>
-          ${r && r.growth_potential ? `<div class="modal-score-reason">${r.growth_potential}</div>` : ''}
         </div>
       </div>
-      <div class="modal-total">
-        <span class="modal-total-label">综合总分</span>
-        <div>
-          <span class="modal-total-value">${s.total}</span>
-          <span class="modal-total-denom"> / 10</span>
-        </div>
-      </div>
     </div>
-
-    <a href="${p.url}" target="_blank" class="modal-link-btn">
-      🔗 前往 GitHub 查看项目
-    </a>
   `;
 
   document.getElementById('modal-overlay').classList.add('open');
