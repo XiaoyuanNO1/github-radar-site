@@ -412,5 +412,258 @@
       "track_fit": "AI 基础研究，未命中五大核心赛道，不得分。",
       "growth_potential": "学术前沿项目，传播受众窄，个人副业变现路径极窄。"
     }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-001",
+    "title": "inclusionAI / AReaL",
+    "url": "https://github.com/inclusionAI/AReaL",
+    "raw_description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
+    "description": "专为LLM推理与Agent设计的极速强化学习框架，主打简单灵活，让开发者用更少代码跑通RL训练流程。解决LLM强化学习门槛高、配置复杂的痛点。",
+    "metaphor": "它就像给LLM强化学习配了一个「一键启动的赛车引擎」——原来需要拼装一周的RL流水线，现在几行代码跑起来，速度还快到飞起。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "强化学习框架涉及分布式训练和底层调度，Vibe 复刻难度较高，需要 ML 背景。",
+      "logic_moat": "RL 训练调度逻辑有一定深度，但竞品（TRL、veRL）成熟，护城河中等。",
+      "track_fit": "AI 基础设施，未命中宠物/银发/玄学/金融/教育五大赛道，不得分。",
+      "growth_potential": "面向 AI 研究者，受众窄，个人副业变现路径不清晰。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-002",
+    "title": "agentscope-ai / ReMe",
+    "url": "https://github.com/agentscope-ai/ReMe",
+    "raw_description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
+    "description": "Agent记忆管理工具包，让AI Agent能「记住你、精炼记忆」，支持长期记忆存储、检索与动态更新。解决Agent对话无状态、每次重头来的核心痛点。",
+    "metaphor": "它就像给AI Agent装了一颗「海马体」——不再是金鱼记忆，能记住用户偏好、历史对话、关键事件，越用越懂你。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "记忆管理的核心是向量检索 + 摘要逻辑，有标准库可用，Cursor 可中等难度复刻 MVP。",
+      "logic_moat": "记忆的分层存储、精炼策略和个性化召回逻辑是真正的业务护城河，设计精妙，满分。",
+      "track_fit": "银发陪伴/教育场景强命中——老人AI伴侣记住家人信息、儿童AI老师记住学习进度，赛道满分。",
+      "growth_potential": "「AI终于能记住我了」这个概念在小红书/即刻极易引爆，个性化AI助手产品变现潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-003",
+    "title": "public-apis / public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "raw_description": "A collective list of free APIs",
+    "description": "全球最大的免费公开API汇总列表，覆盖天气、金融、娱乐、AI等数百个领域，是开发者和Vibecoder的「原材料仓库」。",
+    "metaphor": "它就像一个「免费食材超市」——你要做什么菜（应用），直接来这里找原料（API），不用自己种地（开发底层接口）。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "这是一个资源列表，本身无需复刻；但利用其中的 API 组合出产品，Vibecoding 极易实现。",
+      "logic_moat": "纯资源聚合，无核心算法逻辑，任何人都能复制，护城河极薄。",
+      "track_fit": "工具资源类，未命中五大核心赛道，不得分。",
+      "growth_potential": "作为开发者资源传播潜力一般，个人直接变现路径不清晰。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-004",
+    "title": "Jeffallan / claude-skills",
+    "url": "https://github.com/Jeffallan/claude-skills",
+    "raw_description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+    "description": "为全栈开发者打造的66个专业技能包，将Claude Code变身为专业结对编程伙伴，覆盖前后端、数据库、DevOps等全栈场景。",
+    "metaphor": "它就像给Claude装了一套「全栈工程师工具腰带」——前端、后端、数据库、部署，66把专业工具随时取用，秒变10倍效率程序员。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "纯提示词技能包，零门槛复刻，Vibecoding 极易实现，满分。",
+      "logic_moat": "技能设计偏通用，差异化不足，竞品（anthropics/skills等）多，护城河薄。",
+      "track_fit": "开发工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "「AI 全栈助手」概念有一定传播力，可在开发者社区变现，潜力中等。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-005",
+    "title": "streamlit / streamlit",
+    "url": "https://github.com/streamlit/streamlit",
+    "raw_description": "Streamlit — A faster way to build and share data apps.",
+    "description": "快速构建和分享数据应用的Python框架，无需前端知识，纯Python即可做出交互式数据可视化应用。解决数据科学家不会前端却需要展示成果的痛点。",
+    "metaphor": "它就像给数据科学家配了一个「傻瓜相机」——不用学摄影技术，对准拍就出好照片；不用学前端，写几行Python就出漂亮应用。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "Streamlit 本身就是为快速开发设计的，Vibecoding 极易上手，满分。",
+      "logic_moat": "框架本身成熟，竞品（Gradio、Dash）多，护城河较薄。",
+      "track_fit": "数据工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向数据科学家群体，个人副业变现路径一般。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-006",
+    "title": "ComposioHQ / awesome-claude-skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "raw_description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "description": "精心策划的Claude Skills资源合集，汇聚最优质的Claude技能、工具和工作流定制资源，是Claude生态的「导航地图」。",
+    "metaphor": "它就像Claude技能生态的「米其林指南」——把散落各处的优质技能包、工具和教程精选归类，让你不用在信息海洋里自己捞，直接按图索骥。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "资源聚合类项目，内容是列表和链接，Vibecoding 极易复刻同类产品，满分。",
+      "logic_moat": "纯资源聚合，无算法护城河，先发优势是唯一壁垒，护城河薄。",
+      "track_fit": "AI 工具导航，未命中五大核心赛道，不得分。",
+      "growth_potential": "Claude 生态热度高，「技能导航站」有一定传播潜力，可做流量变现。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-007",
+    "title": "khoj-ai / khoj",
+    "url": "https://github.com/khoj-ai/khoj",
+    "raw_description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+    "description": "可自托管的AI第二大脑，能从网络或个人文档中检索答案、构建定制Agent、调度自动化任务、做深度研究。支持接入任意LLM，真正的个人自主AI助手。",
+    "metaphor": "它就像给你的大脑配了一个「永不遗忘的数字分身」——你读过的文章、存过的笔记、浏览过的网页，全都被它记住并随时调用，还能帮你自动执行任务。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "RAG + Agent 调度 + 自动化任务有一定复杂度，但开源代码可参考，Cursor 中等难度复刻 MVP。",
+      "logic_moat": "个人知识库检索策略 + 深度研究逻辑 + 多源数据融合是真正的业务护城河，设计精妙，满分。",
+      "track_fit": "教育/银发双赛道命中——学生深度研究助手、老人个人记忆助手，赛道满分。",
+      "growth_potential": "「AI 帮你记住一切并自动执行」概念在小红书极易爆，个人知识管理 + 自动化订阅产品变现潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-008",
+    "title": "anthropics / claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "raw_description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "description": "Anthropic官方维护的高质量Claude Code插件目录，是Claude生态插件的权威入口，覆盖开发、写作、分析等多类场景。",
+    "metaphor": "它就像Claude的「官方应用商店」——Anthropic亲自审核上架，质量有保证，开发者直接来这里找插件，不用在野生市场淘金。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "插件开发遵循标准协议，Vibecoding 极易上手开发自己的插件并提交，满分。",
+      "logic_moat": "官方背书的目录体系有一定的生态护城河，但本质是资源聚合，护城河中等。",
+      "track_fit": "AI 工具生态，未命中五大核心赛道，不得分。",
+      "growth_potential": "Claude 生态持续扩张，插件开发者有机会借助官方流量变现，潜力中等偏上。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-009",
+    "title": "microsoft / apm",
+    "url": "https://github.com/microsoft/apm",
+    "raw_description": "Agent Package Manager",
+    "description": "微软出品的Agent包管理器，为AI Agent生态提供类似npm/pip的包管理能力，让Agent技能的安装、更新、依赖管理标准化。",
+    "metaphor": "它就像AI Agent世界的「npm」——你不再需要手动下载、配置Agent技能，一行命令安装，版本冲突自动解决，Agent生态从此有了基础设施。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "包管理器涉及依赖解析和版本控制逻辑，有一定复杂度，Cursor 中等难度复刻。",
+      "logic_moat": "Agent 包管理的依赖解析和版本策略有技术深度，微软背书增加生态护城河，中等。",
+      "track_fit": "开发工具基础设施，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向开发者，受众窄，个人副业变现路径不清晰。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-010",
+    "title": "QwenLM / Qwen",
+    "url": "https://github.com/QwenLM/Qwen",
+    "raw_description": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+    "description": "阿里云通义千问官方开源仓库，提供聊天和预训练大语言模型，是国内最强开源LLM之一，支持中英双语。",
+    "metaphor": "它就像阿里给国内开发者送来了一把「国产瑞士军刀」——中文理解超强，本地部署随心所欲，不再被海外模型卡脖子。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "大模型底层代码涉及分布式训练和推理优化，Vibe 复刻几乎不可能。",
+      "logic_moat": "LLM 预训练架构和中文优化是真正的技术护城河，满分。",
+      "track_fit": "AI 基础模型，未命中五大核心赛道，不得分。",
+      "growth_potential": "国内开发者使用广泛，但个人副业直接变现路径不清晰。"
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "id": "2026-03-06-011",
+    "title": "Blaizzy / mlx-vlm",
+    "url": "https://github.com/Blaizzy/mlx-vlm",
+    "raw_description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
+    "description": "基于Apple MLX框架的视觉语言模型（VLM）推理与微调工具，让Mac用户能在本地跑多模态大模型。解决Mac用户无法高效本地部署VLM的痛点。",
+    "metaphor": "它就像给Mac装了一个「本地多模态AI实验室」——上传图片问问题，分析文档看图表，全在本地跑，数据不上云，隐私零泄露。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "基于 MLX 高层 API，有完整文档，Cursor 可中等难度复刻图片分析类应用 MVP。",
+      "logic_moat": "MLX 框架优化 + VLM 推理调度有一定技术深度，针对 Apple Silicon 的优化是护城河，中等。",
+      "track_fit": "教育赛道命中——本地VLM可做作业批改、图文解析教育工具；银发赛道也可做看图说话辅助，赛道满分。",
+      "growth_potential": "「Mac本地跑多模态AI」在小红书/即刻极易爆，隐私保护概念加持，可包装成付费工具变现。"
+    }
   }
 ]
