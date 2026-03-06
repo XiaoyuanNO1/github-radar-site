@@ -665,5 +665,189 @@
       "track_fit": "教育赛道命中——本地VLM可做作业批改、图文解析教育工具；银发赛道也可做看图说话辅助，赛道满分。",
       "growth_potential": "「Mac本地跑多模态AI」在小红书/即刻极易爆，隐私保护概念加持，可包装成付费工具变现。"
     }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-001",
+    "title": "QwenLM / Qwen-Agent",
+    "url": "https://github.com/QwenLM/Qwen-Agent",
+    "raw_description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
+    "description": "基于Qwen3.0+构建的Agent框架与应用集合，集成函数调用、MCP协议、代码解释器、RAG、Chrome扩展等核心能力。解决开发者在Qwen生态上快速搭建Agent应用门槛高的痛点，今日684颗星增量说明热度极高。",
+    "metaphor": "它就像给Qwen大模型配了一套「全副武装的特种兵装备」——RAG是望远镜、Code Interpreter是工兵铲、MCP是通讯电台，拼装好就是一支能打硬仗的Agent特种队。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "Agent框架有标准化API，但MCP+RAG+Code Interpreter的组合集成有一定复杂度，Cursor中等难度复刻MVP。",
+      "logic_moat": "函数调用编排+RAG检索策略+多工具协同逻辑是真正的业务护城河，Qwen生态深度绑定形成技术壁垒，满分。",
+      "track_fit": "教育赛道强命中——Qwen-Agent可做AI家教、作业辅导、学习助手；金融赛道也可做数据分析Agent，赛道满分。",
+      "growth_potential": "「国产Agent框架+Qwen3.0」组合在小红书/即刻极易爆，本地化优势突出，可包装成付费AI助手产品变现。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-002",
+    "title": "lingfengQAQ / webnovel-writer",
+    "url": "https://github.com/lingfengQAQ/webnovel-writer",
+    "raw_description": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级连载创作。",
+    "description": "基于Claude Code的长篇网文辅助创作系统，核心攻克AI写作的「遗忘」和「幻觉」两大顽疾，支持200万字量级的超长连载创作。解决AI写长文时前后矛盾、人物失忆的核心痛点。",
+    "metaphor": "它就像给AI写手装了一个「超级剧情数据库」——主角的性格、过往剧情、世界观设定全部锁死，AI绝不会突然忘记男主叫什么、或者让已死的角色复活，200万字连载稳如磐石。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 10
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "纯逻辑编排——上下文管理+提示词工程+文件系统操作，Cursor一天内可复刻MVP，极易实现，满分。",
+      "logic_moat": "「记忆管理+一致性检查+剧情数据库」三位一体的架构设计是真正的业务护城河，解决了AI写作最核心的痛点，满分。",
+      "track_fit": "教育/娱乐双赛道命中——AI辅助写作是小红书高热话题，网文创作是千亿级市场，赛道满分。",
+      "growth_potential": "「AI帮你写200万字网文不崩人设」这个卖点在小红书/即刻/抖音极易引爆，可做付费写作工具或课程变现，潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-003",
+    "title": "openai / skills",
+    "url": "https://github.com/openai/skills",
+    "raw_description": "Skills Catalog for Codex",
+    "description": "OpenAI官方为Codex发布的技能目录，是OpenAI版的Claude Skills生态，让Codex具备模块化的专业技能扩展能力。今日582颗星增量，是OpenAI对Claude Skills生态的直接回应。",
+    "metaphor": "它就像OpenAI给Codex开了一家「官方技能超市」——Claude有技能商店，OpenAI立刻跟进，两家巨头都在抢占AI技能生态的入口，这是一场无声的生态战争。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "技能是提示词+工具调用的纯逻辑编排，Cursor一天内可复刻自己的技能包，极易，满分。",
+      "logic_moat": "OpenAI官方背书的技能设计体系有一定逻辑深度，但本质仍是prompt工程，护城河中等。",
+      "track_fit": "AI开发工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "「OpenAI官方技能包」概念在开发者社区有极高传播度，可参考其设计做垂直领域技能包变现。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-004",
+    "title": "virattt / ai-hedge-fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
+    "raw_description": "An AI Hedge Fund Team",
+    "description": "AI对冲基金团队模拟系统，用多个AI Agent分别扮演基本面分析师、技术分析师、风险管理师、投资组合经理等角色，协同完成投资决策。解决个人投资者缺乏专业分析团队的痛点。",
+    "metaphor": "它就像花几百块钱「租了一整支华尔街分析师团队」——基本面、技术面、情绪面、风控全覆盖，每个AI角色各司其职，最后给你一个综合投资建议，散户也能用机构级分析。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "多Agent协同+金融数据API调用，有一定复杂度，但框架清晰，Cursor中等难度复刻MVP。",
+      "logic_moat": "多角色投资决策逻辑+风险管理框架是真正的金融业务护城河，46K星验证了市场认可度，满分。",
+      "track_fit": "金融赛道完美命中，AI量化投资是最高变现潜力赛道之一，赛道满分。",
+      "growth_potential": "「AI帮你炒股/做投资决策」在小红书/即刻是永恒爆款话题，可包装成付费投资工具或信号服务变现。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-005",
+    "title": "p-e-w / heretic",
+    "url": "https://github.com/p-e-w/heretic",
+    "raw_description": "Fully automatic censorship removal for language models",
+    "description": "全自动语言模型审查移除工具，通过技术手段绕过LLM的内容限制，让模型能够回答被屏蔽的问题。解决AI过度审查导致实用性下降的痛点（存在合规风险）。",
+    "metaphor": "它就像给被「套了紧箍咒」的LLM施了一个「解咒符」——那些被安全护栏拦住的回答，现在可以正常输出了，但这把双刃剑用不好会伤到自己。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "绕过审查的技术方案有一定复杂度，涉及提示词注入和模型行为分析，复刻中等难度。",
+      "logic_moat": "审查绕过逻辑有一定技术深度，但存在合规风险，且模型厂商会持续修补，护城河不稳定。",
+      "track_fit": "技术工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "话题争议性强，传播潜力有，但合规风险极高，不建议作为副业产品变现。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-006",
+    "title": "apache / airflow",
+    "url": "https://github.com/apache/airflow",
+    "raw_description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+    "description": "Apache顶级项目，用代码定义、调度、监控工作流的平台，是数据工程领域的绝对标杆，44K星的常青树级别项目。今日出现在趋势榜是因为新版本发布或社区热点。",
+    "metaphor": "它就像数据工程界的「瑞士手表」——精准、可靠、经久不衰，每个数据团队都在用，是流水线调度的工业标准，但不是适合个人副业的方向。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 0,
+      "total": 3
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "Airflow 配置和 DAG 编写有学习曲线，但有完整文档，Vibe 复刻难度中偏高。",
+      "logic_moat": "工作流调度逻辑成熟，但竞品（Prefect、Dagster）众多，护城河中等。",
+      "track_fit": "数据工程基础设施，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向企业数据团队，个人副业变现路径几乎没有，潜力为0。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-007",
+    "title": "github / awesome-copilot",
+    "url": "https://github.com/github/awesome-copilot",
+    "raw_description": "Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.",
+    "description": "GitHub官方维护的Copilot社区资源集合，汇聚社区贡献的提示词、指令、配置，帮助用户最大化Copilot的使用效果。23K星说明Copilot生态的庞大用户基数。",
+    "metaphor": "它就像GitHub给Copilot用户编了一本「秘籍合集」——把全球用户摸索出来的最佳提示词、最牛配置全收录进来，让你站在所有人的肩膀上用好Copilot。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "纯资源聚合，内容是提示词和配置文件，Vibecoding极易复刻同类导航站，满分。",
+      "logic_moat": "纯资源聚合，无算法护城河，GitHub官方背书是唯一壁垒，护城河薄。",
+      "track_fit": "AI开发工具资源，未命中五大核心赛道，不得分。",
+      "growth_potential": "开发者资源传播潜力一般，个人副业直接变现路径不清晰。"
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "id": "2026-03-07-008",
+    "title": "BerriAI / litellm",
+    "url": "https://github.com/BerriAI/litellm",
+    "raw_description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI format, with cost tracking, guardrails, loadbalancing and logging.",
+    "description": "统一调用100+个LLM API的Python SDK和AI网关，支持成本追踪、护栏、负载均衡、日志。解决开发者对接多个LLM提供商时接口不统一、成本难控的痛点。",
+    "metaphor": "它就像AI应用开发者的「万能遥控器」——不管是GPT、Claude还是Gemini，统一一套代码调用，还能实时看哪个模型最便宜，自动切换省钱，38K星是市场最好的背书。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "统一API封装有一定复杂度，但有完整文档，Cursor中等难度复刻简化版网关。",
+      "logic_moat": "多LLM路由策略+成本优化逻辑有一定业务深度，但竞品（OpenRouter等）成熟，护城河中等。",
+      "track_fit": "AI基础设施工具，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向开发者，受众有限，个人副业变现路径不清晰。"
+    }
   }
 ]
