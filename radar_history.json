@@ -849,5 +849,189 @@
       "track_fit": "AI基础设施工具，未命中五大核心赛道，不得分。",
       "growth_potential": "面向开发者，受众有限，个人副业变现路径不清晰。"
     }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-001",
+    "title": "666ghj / MiroFish",
+    "url": "https://github.com/666ghj/MiroFish",
+    "raw_description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+    "description": "简洁通用的群体智能引擎，用群体智能算法预测万物——股价、天气、用户行为皆可建模。解决传统预测模型泛化能力差、需要深度ML知识的痛点，今日345颗星增量，是同作者BettaFish生态的延伸。",
+    "metaphor": "它就像把「蚂蚁群体觅食的集体智慧」数字化——没有一只蚂蚁知道全局，但整个蚁群能找到最优路径；MiroFish把这套逻辑抽象成通用预测引擎，输入任何时序数据，群体智能给你答案。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "群体智能算法有一定数学背景要求，但框架已封装高层API，Cursor中等难度复刻金融预测MVP。",
+      "logic_moat": "群体智能预测逻辑是真正的算法护城河——粒子群、蚁群等优化算法组合的设计精妙度极高，满分。",
+      "track_fit": "金融赛道强命中——股价预测、量化信号是最直接的变现路径；玄学赛道也可包装成「AI命运预测引擎」，赛道满分。",
+      "growth_potential": "「AI群体智能预测股价/趋势」在小红书/即刻极易爆，可包装成付费预测工具或量化信号服务变现。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-002",
+    "title": "666ghj / BettaFish",
+    "url": "https://github.com/666ghj/BettaFish",
+    "raw_description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+    "description": "多Agent舆情分析助手，打破信息茧房，还原舆情全貌并预测走向，辅助决策。零框架依赖，从零实现多Agent协同，今日158颗星，累计36K星说明市场认可度极高。",
+    "metaphor": "它就像给你配了一个「全网舆情侦察兵团队」——每个Agent盯一个信息源，汇总分析后给你一张完整的舆情地图，再也不会被算法茧房困住，看到的是真实的民意全貌。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "多Agent协同+舆情数据抓取+情感分析，有一定复杂度，但零框架依赖说明逻辑清晰，Cursor中等难度复刻MVP。",
+      "logic_moat": "多源数据融合+茧房打破策略+趋势预测逻辑是真正的业务护城河，36K星背书，从零实现证明逻辑护城河满分。",
+      "track_fit": "金融赛道强命中——舆情分析是量化投资的核心数据源；教育赛道也可做媒体素养工具，赛道满分。",
+      "growth_potential": "「AI帮你看穿信息茧房」在小红书/即刻是超高热话题，可包装成付费舆情订阅服务或企业决策工具变现。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-003",
+    "title": "AIDC-AI / Pixelle-Video",
+    "url": "https://github.com/AIDC-AI/Pixelle-Video",
+    "raw_description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+    "description": "AI全自动短视频引擎，输入主题自动生成完整短视频，覆盖脚本、配音、画面生成全流程。解决短视频创作者内容生产效率低下的痛点，今日109颗星。",
+    "metaphor": "它就像一条「短视频流水线工厂」——你只需要扔进一个话题，自动出来一条有画面、有配音、有字幕的完整短视频，一天产出100条不是梦。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "视频生成流水线涉及多个AI模型API调用和媒体处理，有一定复杂度，Cursor中等难度复刻MVP。",
+      "logic_moat": "全流程视频生成的编排逻辑有一定深度，但竞品（MoneyPrinterV2等）成熟，护城河中等。",
+      "track_fit": "内容创作工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "「AI全自动生成短视频」在小红书/抖音有极高传播潜力，可包装成付费内容工具变现。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-004",
+    "title": "Dao-AILab / flash-attention",
+    "url": "https://github.com/Dao-AILab/flash-attention",
+    "raw_description": "Fast and memory-efficient exact attention",
+    "description": "快速且内存高效的精确注意力机制实现，是LLM训练和推理加速的核心底层组件，22K星的工业级标准库。今日出现在趋势榜说明有新版本或重大更新。",
+    "metaphor": "它就像给Transformer的「注意力计算」装了涡轮增压——同样的算法，显存减少10倍，速度提升3倍，是每个大模型训练必装的底层加速器。",
+    "scores": {
+      "vibecoding_ease": 0,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 0,
+      "total": 3
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "CUDA底层注意力算子，涉及GPU内存管理和并行计算，Vibe复刻极难，几乎不可能。",
+      "logic_moat": "FlashAttention算法是真正的技术护城河，Tri Dao博士论文级别的创新，逻辑满分。",
+      "track_fit": "AI基础设施，未命中五大核心赛道，不得分。",
+      "growth_potential": "面向大型AI研究机构和企业，个人副业变现路径几乎为零。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-005",
+    "title": "fastino-ai / GLiNER2",
+    "url": "https://github.com/fastino-ai/GLiNER2",
+    "raw_description": "Unified Schema-Based Information Extraction",
+    "description": "统一的基于Schema的信息抽取框架，能从非结构化文本中精准提取实体、关系、事件等结构化信息。解决企业文档智能化处理中信息抽取精度低、泛化差的痛点。",
+    "metaphor": "它就像给AI配了一套「精密手术刀」——面对一堆杂乱的文本，能精准切出你想要的实体和关系，比传统NER模型更懂你的意图，一个模型搞定所有信息抽取任务。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "基于预训练模型的信息抽取，有高层API，Cursor可中等难度复刻垂直领域信息抽取MVP。",
+      "logic_moat": "Schema驱动的统一抽取框架设计有一定逻辑深度，泛化能力强，护城河中等偏上。",
+      "track_fit": "金融赛道命中——可用于财报信息抽取、新闻结构化处理等金融数据场景，赛道满分。",
+      "growth_potential": "金融文档智能化是企业级需求，个人副业变现路径存在但受众相对窄。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-006",
+    "title": "teng-lin / notebooklm-py",
+    "url": "https://github.com/teng-lin/notebooklm-py",
+    "raw_description": "Unofficial Python API for Google NotebookLM",
+    "description": "Google NotebookLM的非官方Python API封装，让开发者能用代码调用NotebookLM的知识问答和播客生成能力。解决NotebookLM无官方API、无法自动化集成的痛点。",
+    "metaphor": "它就像给Google NotebookLM开了一扇「后门」——官方不给API，社区自己凿，现在你可以用Python脚本批量上传文档、自动生成播客摘要，把NotebookLM变成你工作流的一环。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "非官方API封装是纯逻辑工程，主要是HTTP请求逆向，Cursor极易复刻类似的API包装器，满分。",
+      "logic_moat": "逆向工程的API封装护城河极薄——官方一更新就可能失效，且竞品易出现，护城河低。",
+      "track_fit": "教育赛道命中——NotebookLM是学生和研究者最爱的学习工具，Python API让教育场景自动化成为可能，满分。",
+      "growth_potential": "「用Python自动化NotebookLM生成学习播客」在小红书/即刻有传播潜力，可做教育工具变现。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-007",
+    "title": "donnemartin / system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "raw_description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+    "description": "大规模系统设计学习资源，包含系统设计面试备考指南和Anki闪卡，337K星的常青树级别教育资源，是程序员面试必备。今日290颗星说明面试季来临。",
+    "metaphor": "它就像程序员界的「系统设计圣经」——337K星告诉你全球每个准备大厂面试的程序员都在用它，是最经典的面试备考资源，经久不衰。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "纯教育内容资源，基于此做AI辅助学习工具，Vibecoding极易实现，满分。",
+      "logic_moat": "纯资源聚合，无算法护城河，先发优势和337K星是唯一壁垒，护城河薄。",
+      "track_fit": "教育赛道完美命中——程序员面试备考是刚需市场，赛道满分。",
+      "growth_potential": "「AI辅助系统设计面试备考」在程序员社区有极高传播潜力，可包装成付费面试辅导产品变现。"
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "id": "2026-03-08-008",
+    "title": "pgmpy / pgmpy",
+    "url": "https://github.com/pgmpy/pgmpy",
+    "raw_description": "Python library for Causal AI",
+    "description": "Python因果AI库，提供贝叶斯网络、因果推断、结构学习等核心功能，是学术界和工业界因果推理的标准工具。解决AI系统「相关性陷阱」——让模型真正理解因果而非只看相关。",
+    "metaphor": "它就像给AI装了一套「逻辑推理大脑」——不只是看到「下雨路湿」的相关性，而是真正理解「下雨导致路湿」的因果链，这是AI从「聪明」到「智慧」的关键跨越。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 7
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "因果推断涉及概率图模型和统计学背景，Vibe复刻有较高门槛，难度偏高。",
+      "logic_moat": "贝叶斯网络+因果推断算法是真正的学术级护城河，逻辑精妙度满分。",
+      "track_fit": "金融赛道命中——因果推断在量化投资中有直接应用，可做因果驱动的投资策略，赛道满分。",
+      "growth_potential": "学术工具，面向研究者，个人副业变现路径相对窄，但金融应用场景有潜力。"
+    }
   }
 ]
