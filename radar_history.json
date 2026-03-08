@@ -1033,5 +1033,74 @@
       "track_fit": "金融赛道命中——因果推断在量化投资中有直接应用，可做因果驱动的投资策略，赛道满分。",
       "growth_potential": "学术工具，面向研究者，个人副业变现路径相对窄，但金融应用场景有潜力。"
     }
+  },
+  {
+    "date": "2026-03-09",
+    "id": "2026-03-09-001",
+    "title": "Lightricks / ComfyUI-LTXVideo",
+    "url": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+    "raw_description": "LTX-Video Support for ComfyUI",
+    "description": "Lightricks官方出品的ComfyUI视频生成插件，将LTX-Video模型集成到ComfyUI工作流，让用户能用可视化节点方式生成高质量AI视频。解决LTX-Video模型使用门槛高、缺乏可视化操作界面的痛点。",
+    "metaphor": "它就像给「LTX视频生成引擎」装了一个「可视化驾驶舱」——原来需要敲代码才能驾驭的视频生成模型，现在拖拽节点就能操控，创作者变成了AI视频导演。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "ComfyUI插件开发有标准接口，但视频生成涉及多个模型组件，Cursor中等难度复刻同类插件MVP。",
+      "logic_moat": "LTX-Video的ComfyUI集成逻辑有一定技术深度，Lightricks官方背书是额外壁垒，护城河中等。",
+      "track_fit": "AI视频生成工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "「AI视频生成」赛道已趋于饱和，个人副业变现路径存在但竞争激烈，潜力一般。"
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "id": "2026-03-09-002",
+    "title": "the-momentum / open-wearables",
+    "url": "https://github.com/the-momentum/open-wearables",
+    "raw_description": "Self-hosted platform to unify wearable health data through one AI-ready API.",
+    "description": "可自托管的可穿戴健康数据统一平台，通过一个AI就绪的API整合来自不同设备（Apple Watch、Garmin、Fitbit等）的健康数据。解决健康数据碎片化、各平台孤岛化、无法统一AI分析的痛点。",
+    "metaphor": "它就像给你所有的健康设备装了一个「统一翻译官」——Apple Watch说英语、Garmin说法语、Fitbit说日语，现在都翻译成同一种AI能听懂的语言，你的健康数据第一次真正被统一管理。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "多设备数据适配层+统一API封装有一定复杂度，但架构清晰，Cursor中等难度复刻单设备健康数据MVP。",
+      "logic_moat": "多平台健康数据标准化协议+AI就绪接口设计是真正的业务护城河——每新增一个设备适配就加深一层壁垒，设计精妙，满分。",
+      "track_fit": "银发赛道完美命中——老人健康监测是最紧迫的刚需场景，统一健康数据API可直接赋能银发AI健康助手；宠物健康监测也是潜在赛道，满分。",
+      "growth_potential": "「AI统一管理你的全部健康数据」在小红书/即刻是超高热话题，可包装成付费健康AI订阅服务或银发关爱产品变现，增长潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "id": "2026-03-09-003",
+    "title": "Free-TV / IPTV",
+    "url": "https://github.com/Free-TV/IPTV",
+    "raw_description": "M3U Playlist for free TV channels",
+    "description": "免费电视频道M3U播放列表资源，汇聚全球各国免费直播电视频道链接，是IPTV爱好者的必备资源库，14.6K星的成熟项目。今日208颗星说明有新频道更新或用户持续增长。",
+    "metaphor": "它就像一本「全球免费电视台频道表」——把全世界能免费看的直播频道链接都收录进来，想看哪国电视台，复制链接扔进播放器就行，免费全球电视随便看。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 2,
+      "growth_potential": 1,
+      "total": 7
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "纯资源列表，基于此做IPTV播放器或频道管理工具，Vibecoding极易实现，满分。",
+      "logic_moat": "纯资源聚合，无算法护城河，先发优势和14.6K星是唯一壁垒，护城河薄。",
+      "track_fit": "银发赛道命中——老年人看电视是刚需，AI辅助的智能IPTV频道推荐是绝佳的银发产品切入点，赛道满分。",
+      "growth_potential": "「免费看全球电视台」在中老年用户群体有极高传播潜力，可包装成银发友好的IPTV应用变现。"
+    }
   }
 ]
