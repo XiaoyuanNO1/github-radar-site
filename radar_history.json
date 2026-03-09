@@ -1102,5 +1102,143 @@
       "track_fit": "银发赛道命中——老年人看电视是刚需，AI辅助的智能IPTV频道推荐是绝佳的银发产品切入点，赛道满分。",
       "growth_potential": "「免费看全球电视台」在中老年用户群体有极高传播潜力，可包装成银发友好的IPTV应用变现。"
     }
+  },
+  {
+    "date": "2026-03-10",
+    "id": "2026-03-10-001",
+    "title": "karpathy / nanochat",
+    "url": "https://github.com/karpathy/nanochat",
+    "raw_description": "The best ChatGPT that $100 can buy.",
+    "description": "Andrej Karpathy出品的极简ChatGPT实现，用100美元搭建一个最好的ChatGPT替代品。解决普通用户高额API费用和复杂部署门槛的痛点，45K星说明这是Karpathy系列中又一个爆款教学项目。",
+    "metaphor": "它就像Karpathy亲手写的「AI入门教科书」——用最少的代码、最低的成本，还原ChatGPT的核心能力，既是学习利器，又是「穷人版GPT」的完美示范，大神出手就是不一样。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "极简LLM应用封装，Karpathy风格的代码极度清晰，Cursor一天内可复刻并扩展，极易实现，满分。",
+      "logic_moat": "Karpathy的代码设计哲学是真正的护城河——极简但不失深度，教学逻辑精妙，45K星是最好的背书，护城河中等偏上。",
+      "track_fit": "教育赛道强命中——Karpathy项目是AI学习者的圣经级资源，可包装成AI教育课程或学习工具，赛道满分。",
+      "growth_potential": "「100美元搭建最好的ChatGPT」这个噱头在小红书/即刻极易引爆，可做AI教育内容变现或低成本AI工具订阅，潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "id": "2026-03-10-002",
+    "title": "NousResearch / hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "raw_description": "The agent that grows with you",
+    "description": "NousResearch出品的「会成长的Agent」，随用户使用不断学习和进化，实现真正的个性化AI助手体验。解决现有Agent千人一面、无法个性化进化的核心痛点，2.9K星但今日358颗星增量说明爆发中。",
+    "metaphor": "它就像一个「会学习你习惯的AI管家」——不是固定程序，而是真正随着你的使用偏好、工作习惯、思维方式不断进化，越用越懂你，最终成为你的数字分身。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "个性化进化Agent涉及记忆管理+用户建模+反馈循环，有一定复杂度，Cursor中等难度复刻基础版MVP。",
+      "logic_moat": "「会成长的Agent」的用户画像构建和个性化进化逻辑是真正的业务护城河——数据飞轮效应显著，越用越难被替代，护城河满分。",
+      "track_fit": "银发/教育双赛道强命中——会成长的AI伴侣对老人和学生都是刚需，个性化AI助手是最强的情感连接产品，赛道满分。",
+      "growth_potential": "「AI终于真正懂我了」这个概念是小红书/即刻的永恒爆款话题，个性化AI订阅产品变现潜力极大。"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "id": "2026-03-10-003",
+    "title": "strands-agents / samples",
+    "url": "https://github.com/strands-agents/samples",
+    "raw_description": "Agent samples built using the Strands Agents SDK.",
+    "description": "Strands Agents SDK的官方示例集合，展示如何用Strands框架构建各类AI Agent应用，是AWS推出的新一代Agent开发框架的配套学习资源。682星但今日仅6颗星，属于新兴框架早期项目。",
+    "metaphor": "它就像一本「Strands Agent框架的实战食谱」——每个示例都是一道菜，从简单炒蛋到满汉全席，手把手教你用AWS新框架做出各种AI Agent应用，是进入Strands生态的入门钥匙。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "示例代码即教学材料，Vibecoding极易参考复刻，满分。",
+      "logic_moat": "纯示例集合，无核心算法逻辑，护城河极薄，依赖Strands框架本身的生态。",
+      "track_fit": "AWS Agent开发工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "Strands框架刚起步，受众窄，个人副业变现路径不清晰，潜力一般。"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "id": "2026-03-10-004",
+    "title": "exo-explore / exo",
+    "url": "https://github.com/exo-explore/exo",
+    "raw_description": "Run frontier AI locally.",
+    "description": "本地运行前沿AI模型的框架，支持将多台设备（手机、笔记本、台式机）组成分布式集群，协同运行大模型。解决单台设备显存不足无法本地运行大模型的痛点，42K星的成熟项目。",
+    "metaphor": "它就像给你家里所有设备组了一个「AI算力联盟」——手机、平板、笔记本、台式机全部联网，算力叠加，一起跑原本需要A100的大模型，家庭设备秒变私人AI服务器集群。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "分布式推理涉及设备发现、网络通信、模型分片等底层技术，Vibe复刻难度较高，需要系统编程背景。",
+      "logic_moat": "多设备分布式AI推理的调度算法和模型分片策略是真正的技术护城河，42K星验证了市场认可度，护城河满分。",
+      "track_fit": "教育/银发双赛道命中——本地AI保护隐私，可做家庭隐私AI助手；银发用户对数据安全极其敏感，本地部署是核心卖点，赛道满分。",
+      "growth_potential": "「用家里的旧设备组AI集群，免费跑大模型」在小红书/即刻是超高热话题，隐私保护+免费使用双重卖点，传播潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "id": "2026-03-10-005",
+    "title": "Blaizzy / mlx-audio",
+    "url": "https://github.com/Blaizzy/mlx-audio",
+    "raw_description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple MLX framework.",
+    "description": "基于Apple MLX框架的全套语音处理库，支持TTS（文字转语音）、STT（语音转文字）、STS（语音转语音），专为Apple Silicon优化，本地运行零隐私泄露。解决Mac用户本地语音AI处理效率低的痛点。",
+    "metaphor": "它就像给Mac装了一套「本地语音AI工作室」——TTS帮你把文章念出来、STT帮你把会议录音转文字、STS帮你实时变声，全在本地跑，苹果芯片的能效比拉满，隐私零泄露。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "基于MLX高层API，有完整文档，Cursor可中等难度复刻语音应用MVP，如AI播客生成器或会议转录工具。",
+      "logic_moat": "MLX框架深度优化+TTS/STT/STS全链路整合是真正的技术护城河，针对Apple Silicon的专项优化难以复制，护城河中等偏上。",
+      "track_fit": "银发/教育双赛道命中——老人语音助手（不用打字，直接说话）是银发刚需；AI语音辅助学习是教育赛道热点，赛道满分。",
+      "growth_potential": "「Mac本地语音AI，完全免费不上云」在小红书/即刻极易爆，可包装成银发语音助手或AI播客工具变现，增长潜力大。"
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "id": "2026-03-10-006",
+    "title": "hpcaitech / Open-Sora",
+    "url": "https://github.com/hpcaitech/Open-Sora",
+    "raw_description": "Open-Sora: Democratizing Efficient Video Production for All",
+    "description": "民主化高效视频生成的开源项目，让所有人都能用上Sora级别的AI视频生成能力。解决OpenAI Sora封闭、高成本、无法本地部署的痛点，28K星的成熟开源替代方案。",
+    "metaphor": "它就像OpenAI Sora的「开源平替」——Sora只能用网页版且价格昂贵，Open-Sora直接开源让你本地跑，视频生成民主化，人人都是AI导演。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "视频生成模型涉及扩散模型底层和大量GPU计算，Vibe复刻难度极高，需要深度ML背景。",
+      "logic_moat": "DiT视频生成架构有一定技术深度，但作为开源平替，护城河中等，随时可被更好的开源项目替代。",
+      "track_fit": "AI视频生成工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "「免费本地跑Sora级视频生成」有一定传播潜力，但视频生成赛道趋于饱和，个人副业变现竞争激烈。"
+    }
   }
 ]
