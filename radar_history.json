@@ -1240,5 +1240,143 @@
       "track_fit": "AI视频生成工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
       "growth_potential": "「免费本地跑Sora级视频生成」有一定传播潜力，但视频生成赛道趋于饱和，个人副业变现竞争激烈。"
     }
+  },
+  {
+    "date": "2026-03-11",
+    "id": "2026-03-11-001",
+    "title": "bytedance / deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "raw_description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
+    "description": "字节跳动出品的开源超级Agent框架，集沙箱、记忆、工具、技能、子Agent于一体，能处理从分钟级到小时级的复杂任务。解决现有Agent框架任务粒度粗、无法处理长时复杂任务的核心痛点，今日1443颗星增量说明爆发中。",
+    "metaphor": "它就像字节给AI Agent造了一套「特种作战指挥系统」——不是普通的问答机器人，而是能独立完成调研、写代码、创作内容的超级特工，沙箱是训练场、记忆是情报库、子Agent是特种小队，接到任务自动拆解执行，几小时后直接交付成果。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "超级Agent涉及沙箱隔离+记忆管理+子Agent协调，有一定复杂度，但字节开源代码架构清晰，Cursor中等难度复刻垂直场景MVP。",
+      "logic_moat": "长时复杂任务拆解策略+多层子Agent协同+沙箱安全执行是真正的业务护城河，字节工程团队背书，技术深度满分。",
+      "track_fit": "教育赛道强命中——SuperAgent可做AI学习助手，自动完成研究报告、代码作业；金融赛道也可做自动化投研Agent，赛道满分。",
+      "growth_potential": "「AI帮你完成几小时的复杂工作」这个概念在小红书/即刻极易引爆，字节品牌背书加持，可包装成付费AI工作助手变现，增长潜力巨大。"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "id": "2026-03-11-002",
+    "title": "theOehrly / Fast-F1",
+    "url": "https://github.com/theOehrly/Fast-F1",
+    "raw_description": "FastF1 is a python package for accessing and analyzing Formula 1 results, schedules, timing data and telemetry",
+    "description": "F1赛车数据分析Python包，提供对F1比赛结果、赛程、计时数据和遥测数据的完整访问与分析能力。解决F1数据爱好者和分析师获取、处理赛车数据门槛高的痛点，4.6K星的成熟工具，今日52颗星受F1赛季开幕驱动。",
+    "metaphor": "它就像F1车队「数据工厂的民用版」——原本只有顶级车队才能获取的赛车遥测数据、圈速分析、轮胎策略数据，现在任何人用Python几行代码就能拿到，F1迷变身数据分析师。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "高层API封装完善，文档齐全，Cursor极易复刻F1数据可视化应用或赛事预测工具，满分。",
+      "logic_moat": "赛车遥测数据解析逻辑有一定技术深度，且是F1数据领域的标准工具，护城河中等偏上。",
+      "track_fit": "体育数据分析工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "F1赛季期间有传播潜力，可做F1数据可视化内容或赛事预测工具，但受众相对窄，潜力一般。"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "id": "2026-03-11-003",
+    "title": "AstrBotDevs / AstrBot",
+    "url": "https://github.com/AstrBotDevs/AstrBot",
+    "raw_description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative.",
+    "description": "支持多IM平台（微信、QQ、Telegram等）的Agentic聊天机器人基础设施，集成多种LLM、插件和AI功能，可作为openclaw替代方案。解决开发者在不同IM平台部署AI助手需要重复开发的痛点，20.5K星的成熟生态。",
+    "metaphor": "它就像给AI助手配了一套「全平台通行证」——不管用户在微信、QQ还是Telegram，同一个AI大脑通吃所有平台，你只需要搭一次，用户在哪里你就在哪里。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "多平台IM集成有一定复杂度，但框架已封装好各平台适配层，Cursor中等难度复刻垂直场景AI机器人MVP。",
+      "logic_moat": "多IM平台统一接入层+插件生态是真正的业务护城河，20.5K星验证了生态成熟度，护城河中等偏上。",
+      "track_fit": "银发/教育双赛道命中——微信AI助手是银发刚需（老人都在用微信），教育AI机器人在QQ/微信也有大量场景，赛道满分。",
+      "growth_potential": "「在微信/QQ里接入AI助手」在中国市场有极高传播潜力，可包装成垂直场景AI机器人（银发助手/学习助手）付费变现。"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "id": "2026-03-11-004",
+    "title": "modelscope / sirchmunk",
+    "url": "https://github.com/modelscope/sirchmunk",
+    "raw_description": "🐿️ Sirchmunk: Raw data to self-evolving intelligence, real-time.",
+    "description": "阿里ModelScope出品的实时自进化智能框架，将原始数据转化为能自我进化的实时智能体，强调「进化」而非「训练」。解决传统AI系统静态、需要重新训练才能适应新数据的痛点，365星但今日65颗星说明刚起步。",
+    "metaphor": "它就像给AI装了一套「生物进化系统」——不是固定的神经网络，而是像生命体一样能感知环境变化、自动调整自己，原始数据进去，进化后的智能出来，越用越聪明。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "is_top": true,
+    "score_reasons": {
+      "vibecoding_ease": "自进化智能涉及在线学习+实时推理+数据流处理，架构复杂，Vibe复刻难度较高，需要ML背景。",
+      "logic_moat": "实时自进化的在线学习机制是真正的算法护城河——不需要重新训练就能进化，这是AI系统的范式级突破，逻辑满分。",
+      "track_fit": "教育赛道命中——自进化AI可做真正个性化的学习助手，随学生进度自动调整；金融赛道也可做自适应量化策略，赛道满分。",
+      "growth_potential": "「AI能自己进化，越用越聪明」这个概念在小红书/即刻极易引爆，可包装成自进化AI助手产品，增长潜力大。"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "id": "2026-03-11-005",
+    "title": "volcengine / OpenViking",
+    "url": "https://github.com/volcengine/OpenViking",
+    "raw_description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+    "description": "火山引擎出品的专为AI Agent设计的开源上下文数据库，通过文件系统范式统一管理Agent所需的记忆、资源和技能，支持层级化上下文传递和自进化。解决Agent上下文管理混乱、各类资源孤岛化的痛点，5.6K星今日306颗星增量。",
+    "metaphor": "它就像给AI Agent建了一个「统一的大脑存储系统」——记忆放哪里、技能怎么调用、资源如何传递，全部用文件系统的方式标准化管理，Agent的「工作记忆」第一次有了真正的秩序。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 6
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "上下文数据库的层级管理和文件系统范式有一定复杂度，但接口清晰，Cursor中等难度复刻Agent记忆管理MVP。",
+      "logic_moat": "文件系统范式的Agent上下文统一管理逻辑是真正的架构护城河——层级化传递+自进化设计精妙，满分。",
+      "track_fit": "AI Agent基础设施，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "面向Agent开发者，受众相对窄，个人副业变现路径不清晰，潜力一般。"
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "id": "2026-03-11-006",
+    "title": "apify / crawlee-python",
+    "url": "https://github.com/apify/crawlee-python",
+    "raw_description": "Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Parsel, BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+    "description": "Python网络爬虫和浏览器自动化库，专为AI/LLM/RAG数据采集设计，支持Parsel、BeautifulSoup、Playwright，内置代理轮换，构建可靠爬虫的首选工具。解决AI应用数据采集不稳定、反爬绕过繁琐的痛点，8.4K星的成熟工具。",
+    "metaphor": "它就像给AI数据采集配了一套「专业潜水装备」——普通爬虫是游泳，Crawlee是深潜，JS渲染、代理轮换、反爬绕过全套搞定，专门为给AI喂数据而生。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "is_top": false,
+    "score_reasons": {
+      "vibecoding_ease": "爬虫框架有完整文档和高层API，Cursor中等难度复刻垂直场景数据采集工具MVP。",
+      "logic_moat": "代理轮换+反爬策略+多引擎支持有一定技术深度，但竞品（Scrapy、playwright等）成熟，护城河中等。",
+      "track_fit": "数据采集工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "开发者工具，受众有限，个人副业变现路径不清晰，潜力一般。"
+    }
   }
 ]
