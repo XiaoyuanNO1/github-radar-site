@@ -1378,5 +1378,189 @@
       "track_fit": "数据采集工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
       "growth_potential": "开发者工具，受众有限，个人副业变现路径不清晰，潜力一般。"
     }
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-003",
+    "title": "langflow-ai / openrag",
+    "url": "https://github.com/langflow-ai/openrag",
+    "raw_description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
+    "description": "基于Langflow、Docling和Opensearch构建的综合RAG平台，单包集成文档解析、向量检索、生成全链路。解决RAG系统搭建需要拼接多个组件、配置繁琐的痛点，1.4K星的新兴项目，今日491颗星爆发式增长。",
+    "metaphor": "它就像把RAG的「三件套」（文档解析+向量数据库+LLM生成）打包成一个「一键开箱的全餐套餐」——原来需要分别配置Docling、Opensearch、Langflow，现在一个pip install全搞定，知识库问答系统30分钟上线。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "score_reasons": {
+      "vibecoding_ease": "单包集成RAG平台，高层API封装完善，Cursor极易复刻垂直场景知识库问答MVP，满分。",
+      "logic_moat": "RAG全链路集成+Docling文档解析+Opensearch检索的组合有一定技术深度，但竞品（RAGFlow等）成熟，护城河中等。",
+      "track_fit": "教育赛道命中——企业/学校知识库问答是刚需；金融赛道也可做财报RAG分析系统，赛道满分。",
+      "growth_potential": "「一键搭建企业知识库AI」在小红书/即刻有极高传播潜力，可包装成付费RAG解决方案或SaaS产品变现。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-004",
+    "title": "vectorize-io / hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "raw_description": "Hindsight: Agent Memory That Learns",
+    "description": "会学习的Agent记忆系统，不只是简单存储对话历史，而是从交互中主动学习和提炼记忆，让Agent越用越聪明。解决现有Agent记忆系统静态、无法自我优化的核心痛点，3K星今日300颗星增量。",
+    "metaphor": "它就像给Agent装了一个「会自我进化的记忆皮质」——普通记忆是录音机，只会回放；Hindsight是大脑，会从每次对话中提炼经验、更新认知，用过100次之后的Agent和第一次用的完全不同，越用越懂你。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "score_reasons": {
+      "vibecoding_ease": "记忆学习涉及记忆提炼算法+向量存储+反馈循环，有一定复杂度，Cursor中等难度复刻基础版MVP。",
+      "logic_moat": "「会学习的记忆」的自我进化机制是真正的业务护城河——记忆提炼策略和个性化学习逻辑设计精妙，满分。",
+      "track_fit": "银发/教育双赛道强命中——会学习的AI伴侣记住老人的习惯和偏好，越用越贴心；AI家教记住学生的弱点，越教越精准，赛道满分。",
+      "growth_potential": "「AI终于会从经验中学习了」这个概念在小红书/即刻极易爆，个性化AI订阅产品变现潜力极大。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-005",
+    "title": "sansan0 / TrendRadar",
+    "url": "https://github.com/sansan0/TrendRadar",
+    "raw_description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts. 告别信息过载，你的AI舆情监控助手与热点筛选工具！",
+    "description": "AI驱动的多平台舆情监控与热点筛选工具，聚合多平台热点+RSS订阅，支持关键词精准筛选，AI智能分析简报直推手机，支持MCP架构和Docker部署，集成微信/飞书/钉钉等多渠道推送。解决信息过载、热点追踪效率低的痛点，48K星的超级爆款项目。",
+    "metaphor": "它就像给你配了一个「全网信息侦察卫星」——同时盯着微博、知乎、Twitter、RSS等所有信息源，AI自动过滤噪音、提炼精华、生成简报，直接推到你手机，你只需要喝咖啡等结论。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "score_reasons": {
+      "vibecoding_ease": "多平台数据采集+AI分析+推送通知有一定复杂度，但Docker一键部署说明架构成熟，Cursor中等难度复刻垂直场景MVP。",
+      "logic_moat": "多源数据融合+AI智能筛选+MCP架构的组合是真正的业务护城河，48K星验证了市场认可度，逻辑护城河满分。",
+      "track_fit": "金融赛道强命中——舆情监控是量化投资的核心数据源，AI简报直推是最高效的信息获取方式；教育赛道也可做学术热点追踪，赛道满分。",
+      "growth_potential": "「AI帮你过滤信息噪音，只推你需要的」这个概念是小红书/即刻永恒爆款，可包装成付费信息订阅服务或企业舆情监控SaaS变现。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-001",
+    "title": "microsoft / BitNet",
+    "url": "https://github.com/microsoft/BitNet",
+    "raw_description": "Official inference framework for 1-bit LLMs",
+    "description": "微软官方出品的1-bit大语言模型推理框架，将LLM的参数量化到1-bit，大幅降低推理所需的内存和算力。解决大模型在边缘设备和低算力环境下无法部署的核心痛点，32K星的爆款工业级项目，今日2149颗星说明持续高热。",
+    "metaphor": "它就像给LLM做了一次「极限瘦身手术」——把每个参数从32位浮点数压缩成1个bit，体积缩小32倍，速度飙升，原本需要A100才能跑的大模型，现在树莓派都能驾驭，这是AI普惠化的核武器。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "score_reasons": {
+      "vibecoding_ease": "1-bit量化推理涉及底层CUDA算子和模型量化技术，Vibe复刻极难，需要深度ML系统知识，难度高。",
+      "logic_moat": "1-bit LLM推理的量化算法是真正的技术护城河——微软研究院级别的创新，逻辑精妙度满分。",
+      "track_fit": "教育赛道命中——边缘设备部署使得本地AI教育助手成为可能；银发赛道也可做低成本本地AI陪伴，赛道满分。",
+      "growth_potential": "「手机本地跑大模型」这个概念在小红书/即刻极易引爆，边缘AI普惠化是下一个超级赛道，增长潜力巨大。"
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-002",
+    "title": "fishaudio / fish-speech",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "raw_description": "SOTA Open Source TTS",
+    "description": "当前SOTA级别的开源文字转语音系统，支持多语言、多音色、极低延迟，音质媲美商业TTS服务。解决开发者无法低成本获取高质量TTS服务的痛点，26K星的成熟项目，今日630颗星说明持续活跃。",
+    "metaphor": "它就像给AI应用装了一副「顶级播音员的嗓子」——开源免费，音质媲美微软Azure TTS，想让AI说什么腔调就什么腔调，银发陪伴、儿童故事、有声书全拿下。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "score_reasons": {
+      "vibecoding_ease": "基于预训练TTS模型的高层API，Cursor可中等难度复刻语音应用MVP，如AI有声书生成器或语音助手。",
+      "logic_moat": "SOTA TTS的声学模型和多音色克隆技术有真正的技术壁垒，开源生态护城河中等偏上。",
+      "track_fit": "银发/教育双赛道命中——老人语音助手是银发刚需（不用打字，直接听说）；AI讲故事、英语口语练习是教育爆款，赛道满分。",
+      "growth_potential": "「AI帮你克隆声音/生成有声书」在小红书/抖音是永恒爆款话题，可包装成声音克隆工具或AI播客生成器变现，潜力极大。"
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-006",
+    "title": "google / adk-docs",
+    "url": "https://github.com/google/adk-docs",
+    "raw_description": "An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "description": "Google出品的开源代码优先AI Agent开发工具包，支持构建、评估、部署复杂AI Agent，强调灵活性和可控性。解决开发者构建生产级Agent缺乏官方工具链的痛点，1.2K星的新兴项目，Google背书是最大加分项。",
+    "metaphor": "它就像Google给AI Agent开发者送来了一套「官方工程图纸」——不只是示例代码，而是从设计到评估到部署的完整工程体系，Google亲自背书，意味着这将成为Agent开发的行业标准。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "score_reasons": {
+      "vibecoding_ease": "Google ADK提供高层API和完整文档，Cursor中等难度复刻Agent应用MVP，有官方示例参考。",
+      "logic_moat": "Google官方工具链+评估框架有一定技术深度，但作为文档类项目，核心护城河在于生态绑定，护城河中等。",
+      "track_fit": "AI Agent开发工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "Google ADK将成为Agent开发标准，早期学习者有先发优势，可包装成Google ADK教程或Agent开发课程变现，潜力中等偏上。"
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-007",
+    "title": "searxng / searxng",
+    "url": "https://github.com/searxng/searxng",
+    "raw_description": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+    "description": "免费的隐私保护元搜索引擎，聚合来自各大搜索服务的结果，不追踪用户、不建立用户画像。解决主流搜索引擎隐私泄露和算法茧房问题，26K星的成熟开源项目，今日85颗星。",
+    "metaphor": "它就像互联网的「匿名侦探」——同时向Google、Bing、DuckDuckGo等所有搜索引擎发出查询，汇总结果返回给你，但全程不留下任何你的踪迹，搜索从此不被监视。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "score_reasons": {
+      "vibecoding_ease": "元搜索引擎有成熟架构，Docker一键部署，Cursor中等难度复刻垂直场景搜索工具MVP。",
+      "logic_moat": "多源搜索聚合+隐私保护机制有一定技术深度，但竞品（DuckDuckGo等）成熟，护城河中等。",
+      "track_fit": "搜索工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "隐私保护概念在小红书有一定传播力，但搜索引擎赛道个人副业变现路径不清晰，潜力一般。"
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-13",
+    "id": "2026-03-13-008",
+    "title": "langchain-ai / deepagents",
+    "url": "https://github.com/langchain-ai/deepagents",
+    "raw_description": "Deep Agents is an agent harness built on langchain and langgraph. Deep Agents are equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - making them well-equipped to handle complex agentic tasks.",
+    "description": "基于LangChain和LangGraph构建的深度Agent框架，配备规划工具、文件系统后端和子Agent生成能力，专为处理复杂Agent任务设计。解决现有Agent框架难以处理多步骤复杂任务的痛点，10K星今日126颗星。",
+    "metaphor": "它就像给LangChain装了一个「战略参谋部」——不只是单个Agent执行任务，而是有专门的规划Agent负责拆解任务、文件系统Agent负责持久化、子Agent负责并行执行，复杂任务分而治之，效率倍增。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 2,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "score_reasons": {
+      "vibecoding_ease": "LangChain生态有完整文档，但多层Agent协同有一定复杂度，Cursor中等难度复刻垂直场景Agent MVP。",
+      "logic_moat": "规划+文件系统+子Agent的三层架构有一定设计深度，LangChain生态护城河中等。",
+      "track_fit": "AI Agent开发框架，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "LangChain生态受众广，但Agent框架赛道竞争激烈，个人副业变现路径不清晰，潜力一般。"
+    },
+    "is_top": false
   }
 ]
