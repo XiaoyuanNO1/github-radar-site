@@ -1562,5 +1562,120 @@
       "growth_potential": "LangChain生态受众广，但Agent框架赛道竞争激烈，个人副业变现路径不清晰，潜力一般。"
     },
     "is_top": false
+  },
+  {
+    "date": "2026-03-14",
+    "id": "2026-03-14-003",
+    "title": "NanmiCoder / MediaCrawler",
+    "url": "https://github.com/NanmiCoder/MediaCrawler",
+    "raw_description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+    "description": "覆盖小红书、抖音、快手、B站、微博、百度贴吧、知乎七大平台的全能社媒爬虫工具，支持笔记、视频、评论、帖子的全量采集。解决多平台社媒数据采集需要分别开发爬虫的痛点，45.7K星的超级爆款，今日118颗星说明持续活跃。",
+    "metaphor": "它就像给数据分析师配了一把「七合一瑞士军刀」——小红书、抖音、B站、微博一网打尽，不用分别写七套爬虫，一个工具全平台通吃，社媒数据唾手可得。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "score_reasons": {
+      "vibecoding_ease": "多平台爬虫涉及各平台反爬绕过和登录态维护，有一定复杂度，但框架成熟，Cursor中等难度复刻单平台数据采集MVP。",
+      "logic_moat": "七大平台的反爬策略+登录态管理+数据结构化解析是真正的业务护城河，45.7K星验证了极高市场认可度，逻辑护城河满分。",
+      "track_fit": "金融赛道强命中——社媒舆情数据是量化投资的核心Alpha来源；教育赛道也可做用户研究和内容分析，赛道满分。",
+      "growth_potential": "「一键采集小红书/抖音数据」在营销和数据分析圈极易爆，可包装成社媒数据订阅服务或舆情监控SaaS变现，潜力极大。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-14",
+    "id": "2026-03-14-004",
+    "title": "MiroMindAI / MiroThinker",
+    "url": "https://github.com/MiroMindAI/MiroThinker",
+    "raw_description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7 and MiroThinker-H1, achieve 74.0 and 88.2 on the BrowseComp, respectively.",
+    "description": "专为复杂研究和预测任务优化的深度研究Agent，最新模型MiroThinker-1.7和H1在BrowseComp基准上分别达到74.0和88.2的SOTA成绩。解决现有AI在复杂多步骤研究任务上准确率低、推理链断裂的痛点，6.7K星今日40颗星。",
+    "metaphor": "它就像给AI配了一个「专业研究员大脑」——不是简单的搜索汇总，而是能像顶级分析师一样，多轮深度检索、交叉验证、逻辑推演，最终给出有据可查的研究报告，BrowseComp 88.2分是实力背书。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 8
+    },
+    "score_reasons": {
+      "vibecoding_ease": "深度研究Agent涉及多轮检索策略+推理链管理+结果验证，架构复杂，Vibe复刻难度较高，需要Agent工程背景。",
+      "logic_moat": "SOTA级别的BrowseComp表现（88.2分）背后的深度研究推理逻辑是真正的技术护城河，多轮验证机制设计精妙，满分。",
+      "track_fit": "金融赛道强命中——投研报告自动化是最高价值场景；教育赛道也可做学术研究助手，赛道满分。",
+      "growth_potential": "「AI帮你做专业级深度研究」在小红书/即刻有极高传播潜力，可包装成付费投研服务或学术助手订阅变现。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-14",
+    "id": "2026-03-14-005",
+    "title": "chenyme / grok2api",
+    "url": "https://github.com/chenyme/grok2api",
+    "raw_description": "基于 FastAPI 构建的 Grok2API，全面适配 OpenAI 兼容的调用格式，支持流式/非流式对话、图像生成、图像编辑、视频生成、工具调用、语音聊天、一键NSFW、号池并发与自动负载均衡一体化。",
+    "description": "基于FastAPI构建的Grok2API中转服务，将xAI的Grok模型接口适配为OpenAI兼容格式，支持流式对话、图像生成/编辑、视频生成、工具调用、语音聊天，内置号池并发和自动负载均衡。解决Grok模型无官方API、无法集成到现有AI工作流的痛点，2.8K星今日86颗星。",
+    "metaphor": "它就像给Grok模型装了一个「OpenAI翻译器」——xAI的Grok只有网页版，这个工具把它改造成标准OpenAI接口，你原来用GPT的代码一行不改就能切换到Grok，还能多账号并发，成本直降。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "score_reasons": {
+      "vibecoding_ease": "API中转服务主要是HTTP代理+格式转换逻辑，Cursor极易复刻其他模型的API中转工具，满分。",
+      "logic_moat": "API格式转换护城河极薄——官方一旦出API即失效，且竞品易出现，护城河低。",
+      "track_fit": "AI工具基础设施，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "「免费用Grok」的噱头在AI工具圈极易传播，可包装成低成本AI API服务变现，但合规风险需注意，潜力中等偏上。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-14",
+    "id": "2026-03-14-001",
+    "title": "DevilXD / TwitchDropsMiner",
+    "url": "https://github.com/DevilXD/TwitchDropsMiner",
+    "raw_description": "An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.",
+    "description": "全自动Twitch掉落挖矿工具，支持AFK挂机自动领取计时掉落奖励和自动切换频道。解决游戏玩家需要手动蹲守Twitch直播领取游戏奖励的痛点，2.8K星的成熟工具，今日11颗星是稳定的长尾流量。",
+    "metaphor": "它就像给Twitch观众配了一个「永不打盹的自动领奖机器人」——你去睡觉，它帮你盯着直播、自动切台、自动领取游戏掉落，醒来发现账号里多了一堆游戏皮肤和道具，挂机躺赚。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "score_reasons": {
+      "vibecoding_ease": "自动化工具主要是HTTP请求+定时任务逻辑，Cursor极易复刻类似的平台自动化工具，满分。",
+      "logic_moat": "频道切换策略和掉落检测逻辑较简单，护城河薄，竞品易出现，护城河低。",
+      "track_fit": "游戏自动化工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "游戏玩家圈子有一定传播力，但受众窄，个人副业变现路径不清晰，潜力一般。"
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-14",
+    "id": "2026-03-14-002",
+    "title": "NVIDIA-NeMo / Gym",
+    "url": "https://github.com/NVIDIA-NeMo/Gym",
+    "raw_description": "Build RL environments for LLM training",
+    "description": "NVIDIA出品的LLM训练强化学习环境构建框架，专为大语言模型的RL训练提供标准化的环境接口。解决LLM强化学习缺乏统一环境标准、研究者需要从零搭建RL环境的痛点，714星的新兴项目，NVIDIA背书是核心价值。",
+    "metaphor": "它就像给LLM强化学习搭了一个「标准化训练馆」——不同研究者不再各自搭野路子环境，NVIDIA提供统一的「健身房」规范，所有LLM都在同一套标准设施里接受RL训练，结果可比较可复现。",
+    "scores": {
+      "vibecoding_ease": 0,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 4
+    },
+    "score_reasons": {
+      "vibecoding_ease": "RL环境构建涉及分布式训练框架和底层GPU调度，Vibe复刻极难，需要深度ML系统知识。",
+      "logic_moat": "NVIDIA官方RL环境标准化框架是真正的技术护城河，生态绑定效应强，逻辑精妙度满分。",
+      "track_fit": "AI训练基础设施，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "面向LLM研究机构和大型AI企业，个人副业变现路径极窄，潜力一般。"
+    },
+    "is_top": false
   }
 ]
