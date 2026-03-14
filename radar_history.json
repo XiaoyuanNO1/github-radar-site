@@ -1677,5 +1677,120 @@
       "growth_potential": "面向LLM研究机构和大型AI企业，个人副业变现路径极窄，潜力一般。"
     },
     "is_top": false
+  },
+  {
+    "date": "2026-03-15",
+    "id": "2026-03-15-002",
+    "title": "topoteretes / cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "raw_description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
+    "description": "6行代码即可接入的AI Agent知识引擎，将非结构化数据转化为Agent可理解的知识图谱，让Agent真正「理解」而非「检索」信息。解决传统RAG只做向量检索、缺乏真正知识理解能力的核心痛点，13.5K星今日145颗星，是知识图谱+RAG融合的新范式。",
+    "metaphor": "它就像给AI Agent换了一颗「真正的大脑」——传统RAG是图书馆检索员，只会找书；cognee是真正的学者，能理解书中的知识关系、推理出新结论，6行代码让Agent从「会查」进化到「会想」。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "score_reasons": {
+      "vibecoding_ease": "知识图谱构建+图谱推理有一定复杂度，但6行接入API极度友好，Cursor中等难度复刻垂直场景知识问答MVP。",
+      "logic_moat": "知识图谱+向量检索融合的「理解型记忆」架构是真正的技术护城河，13.5K星验证了市场认可度，图谱推理逻辑满分。",
+      "track_fit": "教育赛道强命中——知识图谱驱动的AI家教能真正理解学生的知识盲点；金融赛道也可做企业知识图谱分析，赛道满分。",
+      "growth_potential": "「AI终于真正理解知识了，不只是检索」这个概念在小红书/即刻极易引爆，可包装成智能知识库产品或AI家教服务变现。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-15",
+    "id": "2026-03-15-004",
+    "title": "browser-use / browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "raw_description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "description": "让AI Agent能像人类一样操控浏览器、自动化完成网页任务的框架，支持任意LLM驱动的浏览器自动化。解决AI Agent无法直接操作网页、需要专门API接入的痛点，80.8K星的超级爆款，今日108颗星说明持续高热。",
+    "metaphor": "它就像给AI Agent配了一双「能操控浏览器的手」——不需要API，不需要插件，AI直接像人类一样打开网页、点击按钮、填写表单、提交数据，互联网上所有网站都变成了AI的操作界面。",
+    "scores": {
+      "vibecoding_ease": 2,
+      "logic_moat": 3,
+      "track_fit": 2,
+      "growth_potential": 2,
+      "total": 9
+    },
+    "score_reasons": {
+      "vibecoding_ease": "浏览器自动化框架有完整文档和高层API，但网页状态管理+LLM决策循环有一定复杂度，Cursor中等难度复刻垂直场景自动化MVP。",
+      "logic_moat": "LLM驱动的动态网页理解+操作决策是真正的技术护城河，80.8K星是市场最强背书，网页感知-决策-执行逻辑精妙，满分。",
+      "track_fit": "金融赛道强命中——自动抓取财经数据、填写交易表单；教育赛道也可做自动化学习助手，赛道满分。",
+      "growth_potential": "「AI帮你自动操作任何网站」这个概念是小红书/即刻的超级爆款话题，可包装成RPA自动化服务或个人效率工具变现，80.8K星说明市场已验证。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-15",
+    "id": "2026-03-15-003",
+    "title": "hesreallyhim / awesome-claude-code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "raw_description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "description": "精心策划的Claude Code生态资源大全，涵盖技能包、Hooks、斜杠命令、Agent编排器、应用和插件，是Claude Code开发者的终极导航地图。28.2K星今日245颗星，是Claude生态中增长最快的资源聚合项目之一。",
+    "metaphor": "它就像Claude Code生态的「满汉全席菜单」——你想要什么口味的Claude能力（技能/命令/插件），翻开这本菜单全都有，省去在GitHub大海里捞针的时间，是Claude重度用户的必收藏书签。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "score_reasons": {
+      "vibecoding_ease": "纯资源导航列表，内容是链接和描述，Vibecoding极易复刻垂直领域的Claude资源导航站，满分。",
+      "logic_moat": "纯资源聚合，无算法护城河，先发优势和28.2K星是唯一壁垒，但维护成本低，护城河薄。",
+      "track_fit": "AI开发工具资源导航，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "Claude Code生态持续爆发，资源导航站有稳定流量，可做流量变现或付费精选版，潜力中等偏上。"
+    },
+    "is_top": true
+  },
+  {
+    "date": "2026-03-15",
+    "id": "2026-03-15-005",
+    "title": "originalankur / maptoposter",
+    "url": "https://github.com/originalankur/maptoposter",
+    "raw_description": "Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
+    "description": "将城市地图转化为精美极简设计海报的工具，用代码生成视觉冲击力强的地图艺术作品，可导出高清打印版。解决设计师和旅行爱好者制作个性化地图装饰品门槛高的痛点，12K星今日107颗星。",
+    "metaphor": "它就像给地图装上了「艺术滤镜」——输入你最爱的城市名，几行代码输出一张能挂在墙上的极简主义地图海报，北京的胡同、上海的外滩、巴黎的街道，全都变成了艺术品。",
+    "scores": {
+      "vibecoding_ease": 3,
+      "logic_moat": 1,
+      "track_fit": 0,
+      "growth_potential": 2,
+      "total": 6
+    },
+    "score_reasons": {
+      "vibecoding_ease": "地图数据调用+SVG/PDF渲染是纯逻辑工程，Cursor极易复刻，甚至可以做成在线生成工具，满分。",
+      "logic_moat": "地图美化渲染逻辑较简单，竞品（城市地图App等）多，护城河薄，先发优势是唯一壁垒。",
+      "track_fit": "设计/旅行工具，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "「AI生成城市地图海报」在小红书/Instagram是天然爆款内容，可做付费定制海报服务或在线生成工具变现，传播潜力大。"
+    },
+    "is_top": false
+  },
+  {
+    "date": "2026-03-15",
+    "id": "2026-03-15-001",
+    "title": "dimensionalOS / dimos",
+    "url": "https://github.com/dimensionalOS/dimos",
+    "raw_description": "The Dimensional Framework",
+    "description": "Dimensional Framework是一个面向AI Agent的操作系统级框架，将AI Agent的感知、决策、执行统一抽象为「维度」操作，构建真正意义上的AI原生操作系统。解决现有AI Agent框架碎片化、缺乏统一抽象层的痛点，838星今日64颗星，属于早期爆发阶段。",
+    "metaphor": "它就像给AI Agent造了一套「操作系统内核」——不是某个具体应用，而是让所有Agent能在同一个「维度空间」里感知世界、协同工作、共享资源，AI Agent从此有了自己的OS。",
+    "scores": {
+      "vibecoding_ease": 1,
+      "logic_moat": 3,
+      "track_fit": 0,
+      "growth_potential": 1,
+      "total": 5
+    },
+    "score_reasons": {
+      "vibecoding_ease": "操作系统级框架涉及底层资源调度和Agent通信协议，Vibe复刻难度极高，需要系统编程背景。",
+      "logic_moat": "AI原生操作系统的「维度」抽象设计是真正的架构护城河——统一感知-决策-执行的抽象层逻辑精妙，满分。",
+      "track_fit": "AI基础设施框架，未命中宠物/银发/玄学/金融/教育五大核心赛道，不得分。",
+      "growth_potential": "面向AI系统开发者，受众极窄，个人副业变现路径不清晰，潜力一般。"
+    },
+    "is_top": false
   }
 ]
